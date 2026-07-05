@@ -1,0 +1,4 @@
+Junior backend developer arıyoruz.
+Adayın Python, FastAPI, PostgreSQL ve REST API geliştirme bilgisine sahip olması beklenir.
+Git kullanımı, test yazma ve temel Docker bilgisi artı değer sağlar.
+

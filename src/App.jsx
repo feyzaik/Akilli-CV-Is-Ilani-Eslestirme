@@ -6,16 +6,18 @@ import JobList from "./components/JobList";
 import ResultsSection from "./components/ResultsSection";
 import EmptyState from "./components/EmptyState";
 import { mockJobs } from "./data/mockJobs";
-import { matchCv } from "./services/api";
+import { analyzeApplication } from "./services/api";
 import { parseCvFile } from "./services/fileParser";
 
 const SAMPLE_CV =
-  "React, JavaScript, HTML, CSS, Python, FastAPI, PostgreSQL ve Git teknolojileriyle projeler geliştirdim. Ayrıca NLP ve makine öğrenmesi alanlarında temel bilgi sahibiyim.";
+  "Bilgisayar mühendisliği öğrencisiyim. Python ile veri analizi projesi geliştirdim. Pandas ve NumPy kullandım. Veri bilimi ve makine öğrenmesine giriş dersleri aldım. Python biliyorum.";
 
 function App() {
   const [cvText, setCvText] = useState("");
+  const [postingText, setPostingText] = useState(mockJobs[2].postingText);
+  const [applicationType, setApplicationType] = useState("internship");
   const [selectedJobId, setSelectedJobId] = useState(null);
-  const [results, setResults] = useState([]);
+  const [analysis, setAnalysis] = useState(null);
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isFileProcessing, setIsFileProcessing] = useState(false);
@@ -25,13 +27,18 @@ function App() {
 
   const handleFillSample = () => {
     setCvText(SAMPLE_CV);
+    setPostingText(mockJobs[2].postingText);
+    setApplicationType("internship");
+    setSelectedJobId(mockJobs[2].id);
     setError("");
   };
 
   const handleClear = () => {
     setCvText("");
+    setPostingText("");
+    setApplicationType("job");
     setSelectedJobId(null);
-    setResults([]);
+    setAnalysis(null);
     setError("");
     setHasMatched(false);
     setSelectedFileName("");
@@ -70,10 +77,28 @@ function App() {
     }
   };
 
+  const handleJobSelect = (job) => {
+    if (selectedJobId === job.id) {
+      setSelectedJobId(null);
+      return;
+    }
+
+    setSelectedJobId(job.id);
+    setPostingText(job.postingText);
+    setApplicationType(job.applicationType);
+  };
+
   const handleMatch = async () => {
     if (!cvText.trim()) {
       setError("Lütfen CV metni giriniz veya PDF/DOCX dosyası yükleyiniz.");
-      setResults([]);
+      setAnalysis(null);
+      setHasMatched(false);
+      return;
+    }
+
+    if (!postingText.trim()) {
+      setError("Lütfen iş veya staj ilanı metni giriniz.");
+      setAnalysis(null);
       setHasMatched(false);
       return;
     }
@@ -82,16 +107,17 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await matchCv({
-        cvText,
-        selectedJobId,
+      const response = await analyzeApplication({
+        cv_text: cvText,
+        posting_text: postingText,
+        application_type: applicationType,
       });
 
-      setResults(response);
+      setAnalysis(response);
       setHasMatched(true);
     } catch (matchError) {
-      setError("Eşleştirme sırasında bir sorun oluştu.");
-      setResults([]);
+      setError("Analiz sırasında bir sorun oluştu.");
+      setAnalysis(null);
       setHasMatched(false);
       console.error(matchError);
     } finally {
@@ -101,9 +127,6 @@ function App() {
 
   return (
     <div className="page-shell">
-      <div className="background-orb background-orb-left" />
-      <div className="background-orb background-orb-right" />
-
       <Header />
 
       <main className="container">
@@ -130,13 +153,17 @@ function App() {
             <JobList
               jobs={mockJobs}
               selectedJobId={selectedJobId}
-              onSelect={setSelectedJobId}
+              postingText={postingText}
+              applicationType={applicationType}
+              onSelect={handleJobSelect}
+              onPostingChange={setPostingText}
+              onApplicationTypeChange={setApplicationType}
             />
           </div>
         </section>
 
         {hasMatched ? (
-          <ResultsSection results={results} isLoading={isLoading} />
+          <ResultsSection analysis={analysis} isLoading={isLoading} />
         ) : (
           <EmptyState />
         )}
@@ -146,3 +173,4 @@ function App() {
 }
 
 export default App;
+

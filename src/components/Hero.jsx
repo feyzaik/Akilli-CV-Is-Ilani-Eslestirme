@@ -1,15 +1,15 @@
 const features = [
   {
-    title: "CV Analizi",
-    description: "Deneyimlerini ve teknoloji geçmişini tek ekranda değerlendir.",
+    title: "Kanıt Tabanlı Eşleşme",
+    description: "Her ilan gereksinimi için CV'de hangi kanıtın bulunduğunu gör.",
   },
   {
-    title: "Yetenek Eşleştirme",
-    description: "İş ilanlarının beklediği yeteneklerle CV içeriğini karşılaştır.",
+    title: "Staj Modu",
+    description: "Ders, proje, sertifika ve portfolyo sinyallerini staj adayları için ayrı değerlendir.",
   },
   {
-    title: "Uyum Skoru",
-    description: "Her rol için yüzdelik uyumu ve gelişim alanlarını hemen gör.",
+    title: "Başvuru Koçluğu",
+    description: "Eksikler için mini proje, etik CV önerisi ve mülakat soruları al.",
   },
 ];
 
@@ -17,9 +17,9 @@ function Hero() {
   return (
     <section id="anasayfa" className="hero">
       <div className="hero-panel">
-        <span className="eyebrow">Kariyer kararlarını veriye dayandır</span>
-        <h1>Akıllı CV – İş İlanı Eşleştirme</h1>
-        <p>CV'ni analiz et, iş ilanlarına ne kadar uygun olduğunu gör.</p>
+        <span className="eyebrow">CareerMatch AI Sprint 1 MVP</span>
+        <h1>Akıllı CV - İş ve Staj İlanı Eşleştirme</h1>
+        <p>CV'ni ilan gereksinimleriyle karşılaştır, başvuruya ne kadar hazır olduğunu ve neyi geliştirmen gerektiğini gör.</p>
 
         <div id="ozellikler" className="feature-grid">
           {features.map((feature) => (
@@ -35,3 +35,4 @@ function Hero() {
 }
 
 export default Hero;
+
