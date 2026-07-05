@@ -1,24 +1,21 @@
 import ResultCard from "./ResultCard";
 
-function ResultsSection({ results, isLoading }) {
+function ResultsSection({ analysis, isLoading }) {
   return (
     <section className="results-section">
       <div className="section-heading">
-        <h2>Sonuçlar</h2>
+        <h2>Analiz Sonuçları</h2>
         <p>
           {isLoading
-            ? "Eşleştirme sonuçları hazırlanıyor."
-            : "Uyum skoru, yetenek eşleşmeleri ve öneriler aşağıda listelenir."}
+            ? "Analiz sonuçları hazırlanıyor."
+            : "Skorlar, kanıt tablosu, eksik beceriler ve öneriler aşağıda listelenir."}
         </p>
       </div>
 
-      <div className="results-grid">
-        {results.map((result) => (
-          <ResultCard key={result.jobId} result={result} />
-        ))}
-      </div>
+      {analysis ? <ResultCard result={analysis} /> : null}
     </section>
   );
 }
 
 export default ResultsSection;
+

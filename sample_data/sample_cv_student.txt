@@ -1,0 +1,7 @@
+Bilgisayar mühendisliği 3. sınıf öğrencisiyim.
+Python ile veri analizi projesi geliştirdim.
+Pandas ve NumPy kullanarak veri temizleme ve görselleştirme yaptım.
+Veri bilimi ve makine öğrenmesine giriş dersleri aldım.
+Üniversite teknoloji kulübünde ekip çalışması deneyimi kazandım.
+Python biliyorum.
+
