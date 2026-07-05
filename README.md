@@ -8,9 +8,9 @@ Takım 5
 ## Takım Rolleri
 
 - Product Owner: Yusuf Şengöz
-- Scrum Master: Feyza Korkmaz
+- Scrum Master: Zeynep Özkan
 - Developer: Ceren Aydın
-- Developer: Zeynep Özkan
+- Developer: Feyza Korkmaz
 
 
 ---
