@@ -8,13 +8,15 @@
 - Kabul kriterleri
 - Demo/pitch anlatımı
 
-## Feyza Korkmaz - Scrum Master
+## Zeynep Özkan - Scrum Master
 
 - Sprint planlama ve günlük scrum kayıtları
 - Sprint board güncellemeleri
 - GitHub issue ve PR süreci
 - Sprint review ve retrospektif dokümanları
 - Bloker takibi
+- Akademi ekibi ve asistanlarla iletişim sorumluluğu
+- Final teslim süreci için takım içi bilgi ve kanıtların toparlanması
 
 ## Ceren Aydın - Backend ve AI/NLP
 
@@ -24,7 +26,7 @@
 - Eşleşme ve skor hesaplama
 - Backend test senaryoları
 
-## Zeynep Özkan - Frontend ve AI Çıktı Arayüzü
+## Feyza Korkmaz - Frontend ve AI Çıktı Arayüzü
 
 - React arayüzü
 - İş/Staj modu seçimi
@@ -32,4 +34,3 @@
 - Kanıt tablosu
 - Staj modu analiz bileşeni
 - Öneri ve mülakat soruları ekranı
-
