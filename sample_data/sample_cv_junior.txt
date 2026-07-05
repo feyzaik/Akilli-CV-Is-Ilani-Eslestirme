@@ -1,0 +1,6 @@
+Junior backend developer adayıyım.
+Python ve Flask ile REST API geliştirdim.
+SQLite kullanarak basit görev takip uygulaması yaptım.
+GitHub üzerinde proje repolarım var.
+Scrum ve sprint süreçlerinde ekip projesinde görev aldım.
+

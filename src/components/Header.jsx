@@ -5,8 +5,8 @@ function Header() {
         <div className="brand">
           <div className="brand-mark">CV</div>
           <div className="brand-copy">
-            <strong>Akıllı CV</strong>
-            <span>İş İlanı Eşleştirme</span>
+            <strong>CareerMatch AI</strong>
+            <span>Akıllı CV Eşleştirme</span>
           </div>
         </div>
 
@@ -27,3 +27,4 @@ function Header() {
 }
 
 export default Header;
+

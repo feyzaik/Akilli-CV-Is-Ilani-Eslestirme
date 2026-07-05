@@ -15,7 +15,7 @@ function CvInput({
     <section className="card input-card">
       <div className="section-heading">
         <h2>CV Giriş Alanı</h2>
-        <p>CV metnini ekle, istersen dosya alanını kullan ve ardından eşleştirme başlat.</p>
+        <p>CV metnini ekle, istersen dosya alanını kullan ve ardından başvuru analizini başlat.</p>
       </div>
 
       <div className="field-stack">
@@ -23,7 +23,7 @@ function CvInput({
           className="textarea"
           value={cvText}
           onChange={(event) => onChange(event.target.value)}
-          placeholder="Python, React, SQL, NLP ve FastAPI projelerinde deneyim sahibiyim..."
+          placeholder="Python ile veri analizi projesi geliştirdim. GitHub üzerinde projelerim var..."
         />
 
         <div className="file-dropzone">
@@ -54,7 +54,7 @@ function CvInput({
 
       <div className="button-row">
         <button className="button button-secondary" type="button" onClick={onFillSample}>
-          Örnek CV Doldur
+          Örnek Senaryo Doldur
         </button>
         <button className="button button-tertiary" type="button" onClick={onClear}>
           Temizle
@@ -65,7 +65,7 @@ function CvInput({
           onClick={onMatch}
           disabled={isLoading || isFileProcessing}
         >
-          {isLoading ? "Eşleştiriliyor..." : isFileProcessing ? "Dosya Okunuyor..." : "Eşleştir"}
+          {isLoading ? "Analiz ediliyor..." : isFileProcessing ? "Dosya okunuyor..." : "Analiz Et"}
         </button>
       </div>
     </section>
@@ -73,3 +73,4 @@ function CvInput({
 }
 
 export default CvInput;
+
