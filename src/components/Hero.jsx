@@ -17,7 +17,7 @@ function Hero() {
   return (
     <section id="anasayfa" className="hero">
       <div className="hero-panel">
-        <span className="eyebrow">CareerMatch AI Sprint 1 MVP</span>
+        <span className="eyebrow">Yapay zeka destekli kariyer koçu</span>
         <h1>Akıllı CV - İş ve Staj İlanı Eşleştirme</h1>
         <p>CV'ni ilan gereksinimleriyle karşılaştır, başvuruya ne kadar hazır olduğunu ve neyi geliştirmen gerektiğini gör.</p>
 
@@ -35,4 +35,3 @@ function Hero() {
 }
 
 export default Hero;
-

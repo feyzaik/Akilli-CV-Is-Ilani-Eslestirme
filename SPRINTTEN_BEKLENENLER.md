@@ -19,7 +19,7 @@ Durum: Tamamlandı
 
 Detay dosyası: [sprint-1/backlog_distribution.md](sprint-1/backlog_distribution.md)
 
-Sprint 1 görevleri MVP önceliğine göre dağıtıldı. Kod, ürün ve süreç dokümantasyonu ayrı sorumluluklara bölündü.
+Sprint 1 görevleri çalışan ürün akışı önceliğine göre dağıtıldı. Kod, ürün ve süreç dokümantasyonu ayrı sorumluluklara bölündü.
 
 Görev dağılımı:
 
@@ -52,9 +52,9 @@ Detay dosyası: [sprint-1/product_status.md](sprint-1/product_status.md)
 
 Ürün görseli:
 
-![CareerMatch AI Sprint 1 ürün görseli](docs/assets/product_screenshot_sprint1.png)
+![CareerMatch AI ürün görseli](docs/assets/product_screenshot_sprint1.png)
 
-Sprint 1 sonunda ürün çalışan MVP seviyesindedir. Kullanıcı CV ve iş/staj ilanı metni girip analiz sonucu alabilir.
+Sprint 1 sonunda ürün çalışan bir analiz akışı sunar. Kullanıcı CV ve iş/staj ilanı metni girip analiz sonucu alabilir.
 
 Çalışan özellikler:
 
@@ -86,7 +86,7 @@ Sprint Review'da demo akışı, tamamlanan user story'ler, gösterilen değer ve
 
 Review özeti:
 
-- Çalışan MVP gösterilebilir hale getirildi.
+- Çalışan ürün akışı gösterilebilir hale getirildi.
 - Skor dışında kanıt tablosu, eksik beceriler ve öneriler görünür kılındı.
 - Staj modu ürünü klasik CV eşleştirme aracından ayıran özgün özellik olarak konumlandırıldı.
 
@@ -115,4 +115,3 @@ Sprint 2 için alınan kararlar:
 - Sprint review bölümü düzenlendi mi: Evet
 - Sprint retrospective bölümü dolduruldu mu: Evet
 - Sprint 2'ye taşınan işler belirtildi mi: Evet
-
