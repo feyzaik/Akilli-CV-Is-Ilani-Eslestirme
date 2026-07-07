@@ -1,31 +1,62 @@
-# Sprint 1 Retrospektif
+# Sprint 1 Retrospective
+
+## Amaç
+
+Sprint 1 sonunda ekip olarak neyin iyi gittiğini, neyin geliştirileceğini ve Sprint 2'ye hangi aksiyonlarla geçileceğini değerlendirmek.
 
 ## İyi Gidenler
 
-- Ürün fikri klasik CV eşleştirme aracından kariyer koçu yaklaşımına taşındı.
+- Ürün fikri klasik CV eşleştirme aracından yapay zeka destekli kariyer koçu yaklaşımına taşındı.
 - Sprint 1 için gerçekçi MVP kapsamı belirlendi.
-- Dokümantasyon ve kod yapısı birlikte ilerledi.
 - Kanıt tabanlı eşleşme ve staj modu gibi özgünlük noktaları erken görünür hale geldi.
-- Backend ve frontend için yerelde denenebilir bir akış oluşturuldu.
+- Backend ve frontend için yerelde denenebilir bir analiz akışı oluşturuldu.
+- Sprint sonunda dokümantasyon, ürün durumu ve test notları GitHub üzerinde toparlandı.
 
-## Geliştirilecekler
+## Zorlayan Noktalar
 
-- Issue ve PR süreçleri daha düzenli kullanılmalı.
-- Test sonuçları ekran görüntüleriyle desteklenmeli.
-- Frontend ve backend entegrasyon testleri artırılmalı.
-- Sprint başlamadan önce görev sahipleri ve teslim dosyaları daha net kilitlenmeli.
-- Her gün kısa da olsa GitHub board güncellemesi yapılmalı.
+- Sprint başında kapsam fazla genişleme eğilimindeydi.
+- GitHub Issues ve Project Board kullanımı Sprint 1'de yeterince düzenli işletilemedi.
+- Test sonuçları ilk aşamada ekran görüntüsüyle desteklenmemişti.
+- Sprint Review ve sprint sonu beklenenler ilk haliyle dağınık görünüyordu.
 
-## Aksiyonlar
+## Öğrenilenler
 
-- Sprint 2 başında PDF/DOCX yükleme kapsamı netleştirilecek.
-- Daha gelişmiş NLP yaklaşımı araştırılacak.
-- Demo verileri ve ekran görüntüleri README'ye eklenecek.
-- GitHub Issues açılıp user story'ler board üzerinde takip edilecek.
-- Sprint 2 için deploy edilebilir MVP hedefi değerlendirilecek.
+- Bootcamp değerlendirmesinde yalnızca kod değil, GitHub üzerindeki süreç kanıtı da kritik.
+- Sprint sonunda beklenen 6 başlık en baştan ayrı ve düzenli tutulmalı.
+- Ürün görseli, demo akışını anlatmak için README ve sprint dokümanlarında görünür olmalı.
+- PR açıklamaları, issue bağlantıları ve test notları jüri/akademi ekibinin süreci anlamasını kolaylaştırır.
+
+## Sprint 2 Aksiyonları
+
+- Sprint 2 başlamadan önce issue'lar açılacak ve board'a yerleştirilecek.
+- Daily scrum notları sprint boyunca düzenli doldurulacak.
+- Her önemli geliştirme PR ile takip edilecek.
+- Ürün görselleri ve test çıktıları dokümantasyona eklenecek.
+- PDF/DOCX desteği, skor açıklamaları ve deployment araştırması Sprint 2 backlog'una alınacak.
 
 ## Start / Stop / Continue
 
-- Start: Düzenli issue kullanımı, ekran görüntüsüyle test kanıtı ekleme, PR açıklamalarını standartlaştırma.
-- Stop: Kapsamı Sprint içinde kontrolsüz büyütme, dokümantasyonu sprint sonuna bırakma.
-- Continue: Küçük ama çalışan MVP yaklaşımı, özgünlük özelliklerini kullanıcı ekranında görünür tutma.
+### Start
+
+- Sprint başında issue ve board düzenini hazırlamak
+- Test sonuçlarını ekran görüntüsü ve kısa açıklamayla belgelemek
+- PR açıklamalarına tamamlanan issue bağlantılarını eklemek
+- Ürün görsellerini README ve sprint dokümanlarında göstermek
+
+### Stop
+
+- Dokümantasyonu sprint sonuna bırakmak
+- Review ve retrospective notlarını tek paragraf veya dağınık formatta yazmak
+- Tamamlanmayan işleri belirsiz bırakmak
+
+### Continue
+
+- Küçük ama çalışan MVP yaklaşımını sürdürmek
+- Özgünlük özelliklerini kullanıcı ekranında görünür tutmak
+- Takım içinde görev paylaşımını açık yazmak
+- Eksik kalan işleri Sprint 2 backlog'una taşımak
+
+## Revizyon Notu
+
+Sprint 1 geri bildirimi sonrası retrospective dosyası daha görünür, başlıklı ve aksiyon odaklı hale getirildi.
+

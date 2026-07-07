@@ -58,6 +58,23 @@ CareerMatch AI yaklaşımıyla ürün yalnızca bir CV-ilan skor aracı değildi
 
 Sprint 1 hedefi; çalışan bir MVP, özgün ürün özellikleri ve GitHub üzerinde izlenebilir dokümantasyon oluşturmaktır.
 
+## Ürün Görseli
+
+![CareerMatch AI Sprint 1 ürün görseli](docs/assets/product_screenshot_sprint1.png)
+
+## Sprint 1 Teslim Düzeni
+
+Bootcamp kılavuzunda her sprint sonunda beklenen proje yönetimi çıktıları Sprint 1 için 6 başlık altında düzenlendi:
+
+1. Backlog dağıtma mantığı
+2. Daily Scrum notları
+3. Sprint Board Updates
+4. Ürün durumu
+5. Sprint Review
+6. Sprint Retrospective
+
+Tek sayfa Sprint 1 teslim özeti: [sprint-1/README.md](sprint-1/README.md)
+
 MVP akışı:
 
 1. Kullanıcı CV metni girer veya PDF/DOCX dosyasından metin çıkarır.
@@ -112,5 +129,6 @@ POST /analyze
 - [Ürün backlog](docs/product_backlog.md)
 - [Özgünlük noktaları](docs/originality_points.md)
 - [AI mimarisi](docs/ai_architecture.md)
+- [Sprint 1 teslim özeti](sprint-1/README.md)
 - [Sprint 1 planı](sprint-1/sprint_planning.md)
 - [Sprint 1 ürün durumu](sprint-1/product_status.md)
