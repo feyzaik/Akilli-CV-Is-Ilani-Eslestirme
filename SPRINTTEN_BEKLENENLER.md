@@ -1,138 +1,118 @@
-# SPRINTTEN_BEKLENENLER
+# Sprintten Beklenenler - Sprint 1 Teslim Özeti
 
-Bu dosya Sprint sonunda ekip tarafından doldurulacaktır.
+Bu dosya, YZTA Bootcamp 2026 kılavuzunda belirtilen sprint sonu beklentilerini tek yerde toplamak için doldurulmuştur.
 
-Amaç:
-YZTA Bootcamp 2026 sürecinde her sprint sonunda beklenen çıktıların tek yerde toplanması.
+Sprint 1 için beklenen 6 ana başlık:
 
-Bu dosya şu an şablon olarak bırakılmıştır.
-Sprint 1 tamamlandığında her ekip üyesi kendi alanına düşen bölümü doldurmalıdır.
+1. Backlog dağıtma mantığı
+2. Daily Scrum notları
+3. Sprint Board Updates
+4. Ürün durumu
+5. Sprint Review
+6. Sprint Retrospective
 
-## Kullanım Kuralı
+Detaylı Sprint 1 teslim girişi: [sprint-1/README.md](sprint-1/README.md)
 
-- Herkes yalnızca kendi sorumluluk alanına ait kısmı doldurmalı
-- Eksik kalan yerler `Tamamlanmadı` diye açıkça işaretlenmeli
-- Link, ekran görüntüsü yolu, GitHub commit bilgisi ve kısa açıklama eklenmeli
+## 1. Backlog Dağıtma Mantığı
 
-## Sprint Sonunda Beklenenler
+Durum: Tamamlandı
 
-### 1. Backlog Dağıtma Mantığı
+Detay dosyası: [sprint-1/backlog_distribution.md](sprint-1/backlog_distribution.md)
 
-Durum:
+Sprint 1 görevleri MVP önceliğine göre dağıtıldı. Kod, ürün ve süreç dokümantasyonu ayrı sorumluluklara bölündü.
 
-Açıklama:
+Görev dağılımı:
 
-Kim neyi aldı:
+- Yusuf Şengöz: ürün vizyonu, personas, backlog ve kabul kriterleri.
+- Zeynep Özkan: Scrum Master sorumlulukları, sprint dokümantasyonu, board takibi ve iletişim.
+- Ceren Aydın: backend, analiz servisleri ve eşleşme mantığı.
+- Feyza Korkmaz: frontend ekranları, kullanıcı akışı ve sonuç bileşenleri.
 
-Notlar:
+## 2. Daily Scrum Notları
 
-### 2. Daily Scrum Notları
+Durum: Tamamlandı
 
-Durum:
+Detay dosyası: [sprint-1/daily_scrum_notes.md](sprint-1/daily_scrum_notes.md)
 
-Toplantı özeti:
+Sprint 1 boyunca gün gün ilerleme, karar, blocker ve sonraki adım notları tutuldu. Bu notlar sprint sonunda proje yönetimi sürecinin izlenebilir olması için eklendi.
 
-Blokerler:
+## 3. Sprint Board Updates
 
-Notlar:
+Durum: Tamamlandı
 
-### 3. Sprint Board Updates
+Detay dosyası: [sprint-1/sprint_board_updates.md](sprint-1/sprint_board_updates.md)
 
-Durum:
+Board durumu To Do, In Progress, Done ve Blockers başlıklarıyla özetlendi. Sprint 2'ye taşınan işler açıkça belirtildi.
 
-Board güncellemeleri:
+## 4. Ürün Durumu
 
-Kart durumu özeti:
+Durum: Tamamlandı
 
-Notlar:
+Detay dosyası: [sprint-1/product_status.md](sprint-1/product_status.md)
 
-### 4. Ürün Durumu
+Ürün görseli:
 
-Durum:
+![CareerMatch AI Sprint 1 ürün görseli](docs/assets/product_screenshot_sprint1.png)
+
+Sprint 1 sonunda ürün çalışan MVP seviyesindedir. Kullanıcı CV ve iş/staj ilanı metni girip analiz sonucu alabilir.
 
 Çalışan özellikler:
 
-Eksik kalanlar:
+- CV metni girişi
+- İlan metni girişi
+- İş/Staj modu seçimi
+- Eşleşme skoru
+- Başvuruya hazırlık skoru
+- Kanıt tablosu
+- Eksik beceri listesi
+- Mini proje önerisi
+- Etik CV önerileri
+- Mülakat soruları
 
-Demo notu:
+Eksik kalan / Sprint 2'ye taşınan işler:
 
-### 5. Sprint Review
+- PDF/DOCX desteğinin güçlendirilmesi
+- Daha gelişmiş NLP/embedding yaklaşımı
+- Deployment
+- GitHub Issues ve Project Board sürecinin daha düzenli kullanılması
 
-Durum:
+## 5. Sprint Review
 
-Sprint sonunda gösterilen çıktılar:
+Durum: Tamamlandı
 
-Alınan geri bildirimler:
+Detay dosyası: [sprint-1/sprint_review.md](sprint-1/sprint_review.md)
 
-Sonraki sprint için kararlar:
+Sprint Review'da demo akışı, tamamlanan user story'ler, gösterilen değer ve Sprint 2'ye taşınan işler düzenli şekilde yazıldı.
 
-### 6. Sprint Retrospective
+Review özeti:
 
-Durum:
+- Çalışan MVP gösterilebilir hale getirildi.
+- Skor dışında kanıt tablosu, eksik beceriler ve öneriler görünür kılındı.
+- Staj modu ürünü klasik CV eşleştirme aracından ayıran özgün özellik olarak konumlandırıldı.
 
-İyi gidenler:
+## 6. Sprint Retrospective
 
-Zorlayan noktalar:
+Durum: Tamamlandı
 
-İyileştirme kararları:
+Detay dosyası: [sprint-1/sprint_retrospective.md](sprint-1/sprint_retrospective.md)
 
-## Kişi Bazlı Doldurma Alanı
+Retrospective içinde iyi gidenler, geliştirilmesi gereken noktalar, aksiyonlar ve Start / Stop / Continue kararları yazıldı.
 
-### Yusuf Şengöz
+Sprint 2 için alınan kararlar:
 
-Alan:
-Frontend / Product Owner
-
-Sprint katkısı:
-
-Teslim ettiği işler:
-
-Kanıt / link:
-
-### Feyza Korkmaz
-
-Alan:
-Backend / Scrum Master
-
-Sprint katkısı:
-
-Teslim ettiği işler:
-
-Kanıt / link:
-
-### Ceren Aydın
-
-Alan:
-NLP / Matching
-
-Sprint katkısı:
-
-Teslim ettiği işler:
-
-Kanıt / link:
-
-### Zeynep Özkan
-
-Alan:
-Veri / DB / Dokümantasyon / Test
-
-Sprint katkısı:
-
-Teslim ettiği işler:
-
-Kanıt / link:
+- Issue ve PR süreçleri daha düzenli kullanılacak.
+- Test sonuçları ekran görüntüleriyle desteklenecek.
+- Demo görselleri ve ürün kanıtları README/docs içinde daha görünür tutulacak.
+- PDF/DOCX ve daha gelişmiş NLP işleri Sprint 2 backlog'una taşınacak.
 
 ## Sprint 1 Final Kontrol
 
-- Backlog dağıtımı yazıldı mı:
-- Daily scrum notları eklendi mi:
-- Sprint board güncellendi mi:
-- Ürün durumu yazıldı mı:
-- Sprint review bölümü dolduruldu mu:
-- Sprint retrospective bölümü dolduruldu mu:
-- Her kişi kendi katkısını ekledi mi:
+- Backlog dağıtımı yazıldı mı: Evet
+- Daily scrum notları eklendi mi: Evet
+- Sprint board güncellendi mi: Evet
+- Ürün durumu yazıldı mı: Evet
+- Ürün görseli eklendi mi: Evet
+- Sprint review bölümü düzenlendi mi: Evet
+- Sprint retrospective bölümü dolduruldu mu: Evet
+- Sprint 2'ye taşınan işler belirtildi mi: Evet
 
-## Not
-
-Bu dosya sprint sonunda doldurulmak içindir.
-Sprint başlamış ama henüz tamamlanmamışsa boş kalması normaldir.

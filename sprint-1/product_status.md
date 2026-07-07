@@ -1,5 +1,11 @@
 # Sprint 1 Ürün Durumu
 
+## Ürün Görseli
+
+Sprint 1 MVP arayüzünden alınan ürün görseli:
+
+![CareerMatch AI Sprint 1 ürün görseli](../docs/assets/product_screenshot_sprint1.png)
+
 ## Tamamlananlar
 
 - Repo klasör yapısı oluşturuldu.
@@ -44,3 +50,7 @@
 - Deployment
 - GitHub Issues ve Project Board'un daha düzenli kullanımı
 - Ekran görüntüleri ve demo videosu hazırlığı
+
+## Revizyon Sonrası Durum
+
+Gelen geri bildirim sonrası ürün görseli eklendi ve Sprint 1 dokümantasyonu 6 ana başlık altında yeniden görünür hale getirildi.
