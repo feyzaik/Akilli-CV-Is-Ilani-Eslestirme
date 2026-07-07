@@ -2,9 +2,9 @@
 
 ## Ürün Görseli
 
-Sprint 1 MVP arayüzünden alınan ürün görseli:
+Ürün arayüzünden alınan görsel:
 
-![CareerMatch AI Sprint 1 ürün görseli](../docs/assets/product_screenshot_sprint1.png)
+![CareerMatch AI ürün görseli](../docs/assets/product_screenshot_sprint1.png)
 
 ## Tamamlananlar
 
@@ -19,7 +19,7 @@ Sprint 1 MVP arayüzünden alınan ürün görseli:
 - Sprint 1 için test notları eklendi.
 - GitHub üzerinde PR ve commit kanıtı oluşturuldu.
 
-## Çalışan MVP Özellikleri
+## Çalışan Ürün Özellikleri
 
 - CV metni girişi
 - İlan metni girişi

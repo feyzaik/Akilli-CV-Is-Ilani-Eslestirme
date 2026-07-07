@@ -54,9 +54,9 @@ CareerMatch AI yaklaşımıyla ürün yalnızca bir CV-ilan skor aracı değildi
 - NLP için Sprint 1'de kural tabanlı anahtar kelime çıkarımı
 - Gelecek sprintler için LLM API, Sentence Transformers ve PostgreSQL
 
-## Sprint 1 MVP
+## Sprint 1 Ürün Akışı
 
-Sprint 1 hedefi; çalışan bir MVP, özgün ürün özellikleri ve GitHub üzerinde izlenebilir dokümantasyon oluşturmaktır.
+Sprint 1 hedefi; çalışan bir ürün akışı, özgün ürün özellikleri ve GitHub üzerinde izlenebilir dokümantasyon oluşturmaktır.
 
 ## Ürün Görseli
 
@@ -75,7 +75,7 @@ Bootcamp kılavuzunda her sprint sonunda beklenen proje yönetimi çıktıları 
 
 Tek sayfa Sprint 1 teslim özeti: [sprint-1/README.md](sprint-1/README.md)
 
-MVP akışı:
+Ürün akışı:
 
 1. Kullanıcı CV metni girer veya PDF/DOCX dosyasından metin çıkarır.
 2. Kullanıcı iş/staj ilanı metni girer veya hazır örnek ilan seçer.

@@ -4,15 +4,15 @@ Bu dosya, YZTA Bootcamp 2026 kılavuzunda her sprint sonunda beklenen proje yön
 
 ## Ürün Görseli
 
-Sprint 1 MVP arayüzünden alınan ürün görseli:
+Ürün arayüzünden alınan görsel:
 
-![CareerMatch AI Sprint 1 ürün görseli](../docs/assets/product_screenshot_sprint1.png)
+![CareerMatch AI ürün görseli](../docs/assets/product_screenshot_sprint1.png)
 
 ## 1. Backlog Dağıtma Mantığı
 
 Detay dosyası: [backlog_distribution.md](backlog_distribution.md)
 
-Sprint 1'de işler takım rollerine ve MVP önceliğine göre dağıtıldı. Öncelik; çalışan analiz akışı, özgün ürün özellikleri ve GitHub dokümantasyon kanıtı oluşturmak olarak belirlendi.
+Sprint 1'de işler takım rollerine ve çalışan ürün akışı önceliğine göre dağıtıldı. Öncelik; çalışan analiz akışı, özgün ürün özellikleri ve GitHub dokümantasyon kanıtı oluşturmak olarak belirlendi.
 
 - Product Owner: ürün vizyonu, personas, backlog ve kabul kriterleri.
 - Scrum Master: sprint dokümantasyonu, günlük takip, board düzeni ve iletişim.
@@ -29,13 +29,13 @@ Daily scrum notlarında Sprint 1 boyunca alınan kararlar, ilerleme notları, bl
 
 Detay dosyası: [sprint_board_updates.md](sprint_board_updates.md)
 
-Sprint board; To Do, In Progress, Done ve Blockers başlıklarıyla özetlendi. Sprint 1 sonunda çalışan MVP için tamamlanan işler Done altında, Sprint 2'ye taşınan işler ise To Do altında belirtildi.
+Sprint board; To Do, In Progress, Done ve Blockers başlıklarıyla özetlendi. Sprint 1 sonunda çalışan ürün akışı için tamamlanan işler Done altında, Sprint 2'ye taşınan işler ise To Do altında belirtildi.
 
 ## 4. Ürün Durumu
 
 Detay dosyası: [product_status.md](product_status.md)
 
-Sprint 1 sonunda ürün; CV metni ve iş/staj ilanı metni üzerinden analiz yapabilen, İş/Staj modu seçimi sunan ve sonuç ekranında skor, kanıt tablosu, eksik beceriler, öneriler ve mülakat soruları gösterebilen bir MVP durumundadır.
+Sprint 1 sonunda ürün; CV metni ve iş/staj ilanı metni üzerinden analiz yapabilen, İş/Staj modu seçimi sunan ve sonuç ekranında skor, kanıt tablosu, eksik beceriler, öneriler ve mülakat soruları gösterebilen çalışan bir ürün akışı durumundadır.
 
 Çalışan ana özellikler:
 
@@ -71,4 +71,3 @@ Gelen Sprint 1 geri bildirimi sonrası yapılan düzenlemeler:
 - Sprint Review daha düzenli hale getirildi.
 - Sprint Retrospective görünür ve okunabilir hale getirildi.
 - `SPRINTTEN_BEKLENENLER.md` şablon olmaktan çıkarılıp doldurulmuş teslim özetine dönüştürüldü.
-
