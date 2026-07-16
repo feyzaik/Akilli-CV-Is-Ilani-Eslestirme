@@ -11,7 +11,7 @@ from services.cv_parser import parse_cv
 from services.interview import generate_interview_questions
 from services.job_analyzer import analyze_posting
 from services.matcher import match_cv_to_posting
-from services.scoring import calculate_readiness_score
+from services.scoring import build_score_explanation, calculate_readiness_score
 
 
 app = FastAPI(
@@ -46,10 +46,18 @@ def analyze(request: AnalyzeRequest) -> AnalyzeResponse:
         match_result["missing_skills"],
         request.application_type,
     )
+    score_explanation = build_score_explanation(
+        match_result["match_score"],
+        readiness_score,
+        match_result["matched_skills"],
+        match_result["missing_skills"],
+        request.application_type,
+    )
 
     return AnalyzeResponse(
         match_score=match_result["match_score"],
         readiness_score=readiness_score,
+        score_explanation=score_explanation,
         matched_skills=match_result["matched_skills"],
         missing_skills=match_result["missing_skills"],
         evidence_table=match_result["evidence_table"],
@@ -65,4 +73,3 @@ def analyze(request: AnalyzeRequest) -> AnalyzeResponse:
             request.application_type,
         ),
     )
-

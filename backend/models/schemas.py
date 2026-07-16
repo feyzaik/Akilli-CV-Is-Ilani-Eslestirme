@@ -33,6 +33,7 @@ class CvImprovementSuggestion(BaseModel):
 class AnalyzeResponse(BaseModel):
     match_score: int
     readiness_score: int
+    score_explanation: str
     matched_skills: list[str]
     missing_skills: list[str]
     evidence_table: list[EvidenceItem]
@@ -40,4 +41,3 @@ class AnalyzeResponse(BaseModel):
     mini_project_recommendation: str
     cv_improvement_suggestions: list[CvImprovementSuggestion]
     interview_questions: list[str]
-
