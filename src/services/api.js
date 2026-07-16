@@ -68,6 +68,14 @@ function buildFallbackAnalysis(payload) {
   return {
     match_score: matchScore,
     readiness_score: readinessScore,
+    score_explanation:
+      matchedSkills.length || missingSkills.length
+        ? `CV metni ile ilan gereksinimleri karsilastirildi. Eslesen alanlar: ${
+            matchedSkills.slice(0, 3).join(", ") || "belirgin eslesme yok"
+          }. Gelistirilmesi gereken alanlar: ${
+            missingSkills.slice(0, 3).join(", ") || "belirgin eksik yok"
+          }.`
+        : "Skorlar mevcut metinlere gore olusturuldu.",
     matched_skills: matchedSkills,
     missing_skills: missingSkills,
     evidence_table: requirements.map((requirement) => ({
@@ -117,4 +125,3 @@ export async function analyzeApplication(payload) {
     return buildFallbackAnalysis(payload);
   }
 }
-

@@ -35,6 +35,11 @@ function ResultCard({ result }) {
       </div>
 
       <div className="result-block">
+        <strong>Skor Aciklamasi</strong>
+        <p className="helper-text">{result.score_explanation}</p>
+      </div>
+
+      <div className="result-block">
         <strong>Eşleşen Beceriler</strong>
         <div className="tag-list">
           {result.matched_skills.map((skill) => (
@@ -140,4 +145,3 @@ function ResultCard({ result }) {
 }
 
 export default ResultCard;
-
