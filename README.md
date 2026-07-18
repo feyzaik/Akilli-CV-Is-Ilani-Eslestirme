@@ -62,9 +62,9 @@ Sprint 1 hedefi; çalışan bir ürün akışı, özgün ürün özellikleri ve 
 
 ![CareerMatch AI Sprint 1 ürün görseli](docs/assets/product_screenshot_sprint1.png)
 
-## Sprint 1 Teslim Düzeni
+## Sprint Teslim Düzeni
 
-Bootcamp kılavuzunda her sprint sonunda beklenen proje yönetimi çıktıları Sprint 1 için 6 başlık altında düzenlendi:
+Bootcamp kılavuzunda her sprint sonunda beklenen proje yönetimi çıktıları sprint klasörleri altında düzenlendi:
 
 1. Backlog dağıtma mantığı
 2. Daily Scrum notları
@@ -74,6 +74,8 @@ Bootcamp kılavuzunda her sprint sonunda beklenen proje yönetimi çıktıları 
 6. Sprint Retrospective
 
 Tek sayfa Sprint 1 teslim özeti: [sprint-1/README.md](sprint-1/README.md)
+
+Tek sayfa Sprint 2 teslim özeti: [sprint-2/README.md](sprint-2/README.md)
 
 Ürün akışı:
 
@@ -132,3 +134,7 @@ POST /analyze
 - [Sprint 1 teslim özeti](sprint-1/README.md)
 - [Sprint 1 planı](sprint-1/sprint_planning.md)
 - [Sprint 1 ürün durumu](sprint-1/product_status.md)
+- [Sprint 2 teslim özeti](sprint-2/README.md)
+- [Sprint 2 planı](sprint-2/sprint_planning.md)
+- [Sprint 2 ürün durumu](sprint-2/product_status.md)
+- [Sprint 2 test sonuçları](docs/test_results_sprint2.md)

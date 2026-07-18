@@ -13,5 +13,7 @@
 | US-09 | Kullanıcı olarak etik CV iyileştirme önerileri almak istiyorum. | Orta | Sprint 1 |
 | US-10 | Kullanıcı olarak mülakat hazırlık soruları görmek istiyorum. | Orta | Sprint 1 |
 | US-11 | Kullanıcı olarak PDF/DOCX CV yüklemek istiyorum. | Orta | Sprint 2 |
-| US-12 | Kullanıcı olarak geçmiş analizlerimi saklamak istiyorum. | Düşük | Sprint 3 |
-
+| US-12 | Kullanıcı olarak skorun neden oluştuğunu açıklama metniyle görmek istiyorum. | Yüksek | Sprint 2 |
+| US-13 | Ekip olarak deployment seçeneklerini karşılaştırmak istiyorum. | Orta | Sprint 2 |
+| US-14 | Ekip olarak Sprint 2 test sonuçlarını repoda görmek istiyorum. | Orta | Sprint 2 |
+| US-15 | Kullanıcı olarak geçmiş analizlerimi saklamak istiyorum. | Düşük | Sprint 3 |

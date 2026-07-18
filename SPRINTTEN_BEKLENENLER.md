@@ -1,8 +1,8 @@
-# Sprintten Beklenenler - Sprint 1 Teslim Özeti
+# Sprintten Beklenenler - Sprint 2 Teslim Özeti
 
-Bu dosya, YZTA Bootcamp 2026 kılavuzunda belirtilen sprint sonu beklentilerini tek yerde toplamak için doldurulmuştur.
+Bu dosya, YZTA Bootcamp 2026 kılavuzunda belirtilen sprint sonu beklentilerini tek yerde toplamak için güncellenmiştir.
 
-Sprint 1 için beklenen 6 ana başlık:
+Sprint 2 için beklenen ana başlıklar:
 
 1. Backlog dağıtma mantığı
 2. Daily Scrum notları
@@ -12,6 +12,32 @@ Sprint 1 için beklenen 6 ana başlık:
 6. Sprint Retrospective
 
 Detaylı Sprint 1 teslim girişi: [sprint-1/README.md](sprint-1/README.md)
+
+Detaylı Sprint 2 teslim girişi: [sprint-2/README.md](sprint-2/README.md)
+
+## Sprint 2 Teslim Kontrolü
+
+- Sprint 2 planning dosyası: [sprint-2/sprint_planning.md](sprint-2/sprint_planning.md)
+- Backlog dağılımı: [sprint-2/backlog_distribution.md](sprint-2/backlog_distribution.md)
+- Daily scrum notları: [sprint-2/daily_scrum_notes.md](sprint-2/daily_scrum_notes.md)
+- Sprint board updates: [sprint-2/sprint_board_updates.md](sprint-2/sprint_board_updates.md)
+- Ürün durumu: [sprint-2/product_status.md](sprint-2/product_status.md)
+- Sprint review: [sprint-2/sprint_review.md](sprint-2/sprint_review.md)
+- Sprint retrospective: [sprint-2/sprint_retrospective.md](sprint-2/sprint_retrospective.md)
+- Sprint 2 test sonuçları: [docs/test_results_sprint2.md](docs/test_results_sprint2.md)
+
+## Sprint 2 Final Kontrol
+
+- Sprint hedefi yazıldı mı: Evet
+- Sprint backlog maddeleri listelendi mi: Evet
+- Takım üyelerine görev dağılımı yapıldı mı: Evet
+- Sprint 1'den taşınan işler belirtildi mi: Evet
+- Test ve build kontrolü kaydedildi mi: Evet
+- Kalan işler Sprint 3 için not edildi mi: Evet
+
+---
+
+Aşağıdaki bölüm Sprint 1 teslim özeti olarak korunmuştur.
 
 ## 1. Backlog Dağıtma Mantığı
 

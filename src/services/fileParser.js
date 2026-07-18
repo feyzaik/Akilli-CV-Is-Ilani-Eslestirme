@@ -46,3 +46,45 @@ async function readPdfFile(file) {
     );
   }
 }
+
+async function readDocxFile(file) {
+  try {
+    const mammothModule = await import("mammoth/mammoth.browser");
+    const mammoth = mammothModule.default;
+    const arrayBuffer = await file.arrayBuffer();
+    const { value } = await mammoth.extractRawText({ arrayBuffer });
+    const text = value.trim();
+
+    if (!text) {
+      throw new Error(
+        "DOCX dosyasından metin çıkarılamadı. Lütfen metin içeren bir DOCX yükleyin."
+      );
+    }
+
+    return text;
+  } catch (error) {
+    console.error("DOCX okuma hatası:", error);
+
+    if (error.message?.includes("metin çıkarılamadı")) {
+      throw error;
+    }
+
+    throw new Error(
+      "DOCX dosyası okunamadı. Dosyanın geçerli ve bozuk olmadığından emin olun."
+    );
+  }
+}
+
+export async function parseCvFile(file) {
+  const fileName = file.name.toLowerCase();
+
+  if (fileName.endsWith(".pdf")) {
+    return readPdfFile(file);
+  }
+
+  if (fileName.endsWith(".docx")) {
+    return readDocxFile(file);
+  }
+
+  throw new Error("Desteklenmeyen dosya türü. Lütfen PDF veya DOCX yükleyin.");
+}
