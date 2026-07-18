@@ -1,18 +1,18 @@
-# Sprint 2 Daily Scrum Notlari
+# Sprint 2 Daily Scrum Notları
 
-Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta takip etmek icin hazirlanmistir.
+Bu dosya, Sprint 2 boyunca günlük ilerleme, blocker ve karar notlarını takip etmek için hazırlanmıştır.
 
 ## 6 Temmuz 2026
 
-### Dun
+### Dün
 
-- Sprint 1 review ve retrospective notlari incelendi.
-- Sprint 2'ye tasinan isler listelendi.
+- Sprint 1 review ve retrospective notları incelendi.
+- Sprint 2'ye taşınan işler listelendi.
 
-### Bugun
+### Bugün
 
-- Sprint 2 hedefi ve ana backlog basliklari netlestirilecek.
-- PDF/DOCX, skor aciklamasi, test ve deployment isleri ayri basliklara ayrilacak.
+- Sprint 2 hedefi ve ana backlog başlıkları netleştirilecek.
+- PDF/DOCX, skor açıklaması, test ve deployment işleri ayrı başlıklara ayrılacak.
 
 ### Blocker
 
@@ -20,54 +20,54 @@ Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta tak
 
 ### Karar / Not
 
-- Sprint 2 kapsaminda once teslim degeri yuksek islere odaklanma karari alindi.
+- Sprint 2'de önce teslim değeri yüksek işlere odaklanma kararı alındı.
 
 ## 7 Temmuz 2026
 
-### Dun
+### Dün
 
-- Sprint 2 kapsam basliklari belirlendi.
+- Sprint 2 kapsam başlıkları belirlendi.
 
-### Bugun
+### Bugün
 
-- PDF/DOCX yukleme akisi frontend tarafinda kontrol edilecek.
-- Dosya okuma hata mesajlari gozden gecirilecek.
+- PDF/DOCX yükleme akışı frontend tarafında kontrol edilecek.
+- Dosya okuma hata mesajları gözden geçirilecek.
 
 ### Blocker
 
-- Taranmis PDF dosyalari OCR gerektirdigi icin kapsam disinda kalabilir.
+- Taranmış PDF dosyaları OCR gerektirdiği için kapsam dışında kalabilir.
 
 ### Karar / Not
 
-- OCR bu sprint icin zorunlu teslim kapsamina alinmadi.
+- OCR bu sprint için zorunlu teslim kapsamına alınmadı.
 
 ## 8 Temmuz 2026
 
-### Dun
+### Dün
 
-- PDF/DOCX yukleme akisinin sinirlari konusuldu.
+- PDF/DOCX yükleme akışının sınırları konuşuldu.
 
-### Bugun
+### Bugün
 
-- Backend analiz cevabina skor aciklamasi ekleme ihtiyaci degerlendirilecek.
+- Backend analiz cevabına skor açıklaması ekleme ihtiyacı değerlendirilecek.
 
 ### Blocker
 
-- Gelismis LLM aciklamasi icin API veya model secimi henuz net degil.
+- Gelişmiş LLM açıklaması için API veya model seçimi henüz net değil.
 
 ### Karar / Not
 
-- Sprint 2 icin kural tabanli, basit ve aciklanabilir skor metni yeterli goruldu.
+- Sprint 2 için kural tabanlı, basit ve açıklanabilir skor metni yeterli görüldü.
 
 ## 9 Temmuz 2026
 
-### Dun
+### Dün
 
-- Skor aciklamasi icin backend tarafindaki alanlar incelendi.
+- Skor açıklaması için backend tarafındaki alanlar incelendi.
 
-### Bugun
+### Bugün
 
-- Eslesen ve eksik becerilerden aciklama metni uretilmesi planlanacak.
+- Eşleşen ve eksik becerilerden açıklama metni üretilmesi planlanacak.
 
 ### Blocker
 
@@ -75,17 +75,17 @@ Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta tak
 
 ### Karar / Not
 
-- Staj ve is modu aciklamalari ayni metinle gecilmeyecek, mod bilgisi metne eklenecek.
+- Staj ve iş modu açıklamaları aynı metinle geçilmeyecek, mod bilgisi metne eklenecek.
 
 ## 10 Temmuz 2026
 
-### Dun
+### Dün
 
-- Skor aciklamasi mantigi netlesti.
+- Skor açıklaması mantığı netleşti.
 
-### Bugun
+### Bugün
 
-- Frontend sonuc kartinda skor aciklamasi icin alan ayrilacak.
+- Frontend sonuç kartında skor açıklaması için alan ayrılacak.
 - Backend response modelinin frontend ile uyumu kontrol edilecek.
 
 ### Blocker
@@ -94,18 +94,18 @@ Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta tak
 
 ### Karar / Not
 
-- Sonuc ekraninda kullaniciya teknik olmayan, okunabilir aciklama verilmesi kararlastirildi.
+- Sonuç ekranında kullanıcıya teknik olmayan, okunabilir açıklama verilmesi kararlaştırıldı.
 
 ## 11 Temmuz 2026
 
-### Dun
+### Dün
 
-- Frontend sonuc karti ve backend response uyumu kontrol edildi.
+- Frontend sonuç kartı ve backend response uyumu kontrol edildi.
 
-### Bugun
+### Bugün
 
-- Backend test senaryolari hazirlanacak.
-- Is modu ve staj modu icin en az iki kontrol yazilacak.
+- Backend test senaryoları hazırlanacak.
+- İş modu ve staj modu için en az iki kontrol yazılacak.
 
 ### Blocker
 
@@ -113,56 +113,56 @@ Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta tak
 
 ### Karar / Not
 
-- Testler once kritik response alanini kontrol edecek sekilde sinirli tutuldu.
+- Testler önce kritik response alanını kontrol edecek şekilde sınırlı tutuldu.
 
 ## 12 Temmuz 2026
 
-### Dun
+### Dün
 
-- Backend test kapsami belirlendi.
+- Backend test kapsamı belirlendi.
 
-### Bugun
+### Bugün
 
-- Deployment secenekleri arastirilacak.
-- Backend ve frontend icin dusuk butceli secenekler karsilastirilacak.
+- Deployment seçenekleri araştırılacak.
+- Backend ve frontend için düşük bütçeli seçenekler karşılaştırılacak.
 
 ### Blocker
 
-- Bazi platformlarda ucretsiz katman kredi karti veya sure siniri istiyor.
+- Bazı platformlarda ücretsiz katman kredi kartı veya süre sınırı istiyor.
 
 ### Karar / Not
 
-- Bootcamp projesi icin sifir/dusuk butce onceligi korundu.
+- Bootcamp projesi için sıfır/düşük bütçe önceliği korundu.
 
 ## 13 Temmuz 2026
 
-### Dun
+### Dün
 
-- Deployment platformlari karsilastirildi.
+- Deployment platformları karşılaştırıldı.
 
-### Bugun
+### Bugün
 
-- Render + Vercel seceneginin avantajlari dokumante edilecek.
+- Render + Vercel seçeneğinin avantajları dokümante edilecek.
 - CORS notu eklenecek.
 
 ### Blocker
 
-- Production URL henuz belli olmadigi icin CORS degeri simdilik yerel kalacak.
+- Production URL henüz belli olmadığı için CORS değeri şimdilik yerel kalacak.
 
 ### Karar / Not
 
-- Canli deployment bu sprintte arastirma ve karar dokumani seviyesinde tutuldu.
+- Canlı deployment bu sprintte araştırma ve karar dokümanı seviyesinde tutuldu.
 
 ## 14 Temmuz 2026
 
-### Dun
+### Dün
 
-- Deployment dokumani hazirlandi.
+- Deployment dokümanı hazırlandı.
 
-### Bugun
+### Bugün
 
 - Sprint 2 board durumu toparlanacak.
-- Done, In Progress ve Blocker basliklari guncellenecek.
+- Done, In Progress ve Blocker başlıkları güncellenecek.
 
 ### Blocker
 
@@ -170,22 +170,22 @@ Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta tak
 
 ### Karar / Not
 
-- Board ozeti teslim dokumanlarina eklenecek.
+- Board özeti teslim dokümanlarına eklenecek.
 
 ## 15 Temmuz 2026
 
-### Dun
+### Dün
 
-- Sprint board basliklari toparlandi.
+- Sprint board başlıkları toparlandı.
 
-### Bugun
+### Bugün
 
-- Sprint review taslagi hazirlanacak.
-- Demo akisinda hangi ozelliklerin gosterilecegi yazilacak.
+- Sprint review taslağı hazırlanacak.
+- Demo akışında hangi özelliklerin gösterileceği yazılacak.
 
 ### Blocker
 
-- Yeni demo videosu henuz yok.
+- Yeni demo videosu henüz yok.
 
 ### Karar / Not
 
@@ -193,13 +193,13 @@ Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta tak
 
 ## 16 Temmuz 2026
 
-### Dun
+### Dün
 
-- Sprint review taslagi hazirlandi.
+- Sprint review taslağı hazırlandı.
 
-### Bugun
+### Bugün
 
-- Retrospective icin iyi gidenler ve gelistirilecekler yazilacak.
+- Retrospective için iyi gidenler ve geliştirilecekler yazılacak.
 
 ### Blocker
 
@@ -207,36 +207,36 @@ Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta tak
 
 ### Karar / Not
 
-- Retrospective icinde daily notlarinin gercek zamanda tutulmasi aksiyon olarak eklenecek.
+- Retrospective içinde daily notlarının gerçek zamanda tutulması aksiyon olarak eklenecek.
 
 ## 17 Temmuz 2026
 
-### Dun
+### Dün
 
-- Retrospective basliklari hazirlandi.
+- Retrospective başlıkları hazırlandı.
 
-### Bugun
+### Bugün
 
-- Sprint 2 test sonuclari dosyasi hazirlanacak.
-- Backend test ve frontend build komutlari kontrol edilecek.
+- Sprint 2 test sonuçları dosyası hazırlanacak.
+- Backend test ve frontend build komutları kontrol edilecek.
 
 ### Blocker
 
-- Production deployment olmadigi icin testler yerel ortamla sinirli kalacak.
+- Production deployment olmadığı için testler yerel ortamla sınırlı kalacak.
 
 ### Karar / Not
 
-- Test sonucu dosyasi teslim kaniti olarak eklenecek.
+- Test sonucu dosyası teslim kanıtı olarak eklenecek.
 
 ## 18 Temmuz 2026
 
-### Dun
+### Dün
 
-- Test sonucu dosyasi taslagi hazirlandi.
+- Test sonucu dosyası taslağı hazırlandı.
 
-### Bugun
+### Bugün
 
-- Sprint 2 planning dokumani issue #7 kabul kriterlerine gore son kez kontrol edilecek.
+- Sprint 2 planning dokümanı issue #7 kabul kriterlerine göre son kez kontrol edilecek.
 
 ### Blocker
 
@@ -244,18 +244,18 @@ Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta tak
 
 ### Karar / Not
 
-- Planning dosyasinda hedef, backlog, gorev dagilimi ve tasinan islerin acik olmasi gerekiyor.
+- Planning dosyasında hedef, backlog, görev dağılımı ve taşınan işlerin açık olması gerekiyor.
 
 ## 19 Temmuz 2026
 
-### Dun
+### Dün
 
 - Issue #7 kabul kriterleri kontrol edildi.
 
-### Bugun
+### Bugün
 
-- Sprint 2 teslim klasoru ve README baglantilari tamamlanacak.
-- Build ve test kontrolleri calistirilacak.
+- Sprint 2 teslim klasörü ve README bağlantıları tamamlanacak.
+- Build ve test kontrolleri çalıştırılacak.
 
 ### Blocker
 
@@ -263,4 +263,4 @@ Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta tak
 
 ### Karar / Not
 
-- Sprint 2 teslimi icin dokuman seti tek klasor altinda toparlandi.
+- Sprint 2 teslimi için doküman seti tek klasör altında toparlandı.

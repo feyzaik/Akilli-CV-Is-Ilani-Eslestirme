@@ -6,68 +6,93 @@
 
 ## Sprint Hedefi
 
-Sprint 2 hedefi, Sprint 1'de calisan temel MVP akisini daha teslim edilebilir hale getirmek ve urunun degerini juriye daha net gostermektir.
+Sprint 2 hedefi, Sprint 1'de çalışan temel MVP akışını daha teslim edilebilir hale getirmek ve ürünün değerini jüriye daha net göstermektir.
 
-Bu sprintte odak; PDF/DOCX dosya okuma desteginin kullanilabilir hale gelmesi, skor aciklamasinin urune eklenmesi, deployment seceneklerinin arastirilmasi, test kanitlarinin eklenmesi ve GitHub uzerinde sprint dokumantasyonunun daha duzenli takip edilmesidir.
+Bu sprintte odak; PDF/DOCX dosya okuma desteğinin kullanılabilir hale gelmesi, skor açıklamasının ürüne eklenmesi, deployment seçeneklerinin araştırılması, test kanıtlarının eklenmesi ve GitHub üzerinde sprint dokümantasyonunun daha düzenli takip edilmesidir.
 
-## Sprint Kapsami
+## Sprint Kapsamı
 
-- PDF/DOCX CV yukleme akisini frontend tarafinda guclendirmek.
-- Backend `/analyze` cevabina skor aciklamasi eklemek.
-- Is ve staj modu icin skor aciklamasinin farkli davranmasini saglamak.
-- Backend icin temel unit testleri eklemek.
-- Deployment seceneklerini karsilastirmak ve proje icin onerilen yolu yazmak.
-- Sprint 2 board, daily scrum, review ve retrospective dokumanlarini hazirlamak.
-- Sprint 1'den tasinan isleri netlestirmek.
+- PDF/DOCX CV yükleme akışını frontend tarafında güçlendirmek.
+- Backend `/analyze` cevabına skor açıklaması eklemek.
+- İş ve staj modu için skor açıklamasının farklı davranmasını sağlamak.
+- Backend için temel unit testleri eklemek.
+- Deployment seçeneklerini karşılaştırmak ve proje için önerilen yolu yazmak.
+- Sprint 2 board, daily scrum, review ve retrospective dokümanlarını hazırlamak.
+- Sprint 1'den taşınan işleri netleştirmek.
+
+## Görsel Takip
+
+Sprint 2 sonunda board durumunu ve kapatılan issue'ları tek bakışta göstermek için görsel bir teslim panosu eklendi:
+
+![Sprint 2 teslim panosu](../docs/assets/sprint2_board_snapshot.svg)
 
 ## Sprint 2 Backlog Maddeleri
 
-| ID | Backlog Maddesi | Oncelik | Sorumlu | Durum |
+| ID | Backlog Maddesi | Öncelik | Sorumlu | Durum |
 | --- | --- | --- | --- | --- |
-| S2-01 | Sprint 2 planlama dokumanini olusturmak | Yuksek | Zeynep Ozkan | Tamamlandi |
-| S2-02 | PDF/DOCX CV yukleme akisini daha kararli hale getirmek | Yuksek | Feyza Korkmaz | Tamamlandi |
-| S2-03 | Skor aciklamasi alanini backend response'una eklemek | Yuksek | Ceren Aydin | Tamamlandi |
-| S2-04 | Skor aciklamasini frontend sonuc ekraninda gostermek | Yuksek | Feyza Korkmaz | Tamamlandi |
-| S2-05 | Backend analiz akisi icin test yazmak | Orta | Ceren Aydin | Tamamlandi |
-| S2-06 | Deployment seceneklerini arastirmak | Orta | Yusuf Sengoz | Tamamlandi |
-| S2-07 | Sprint 2 daily scrum, board, review ve retrospective dokumanlarini toparlamak | Yuksek | Zeynep Ozkan | Tamamlandi |
+| S2-01 | Sprint 2 planlama dokümanını oluşturmak | Yüksek | Zeynep Özkan | Tamamlandı |
+| S2-02 | PDF/DOCX CV yükleme akışını daha kararlı hale getirmek | Yüksek | Feyza Korkmaz | Tamamlandı |
+| S2-03 | Skor açıklaması alanını backend response'una eklemek | Yüksek | Ceren Aydın | Tamamlandı |
+| S2-04 | Skor açıklamasını frontend sonuç ekranında göstermek | Yüksek | Feyza Korkmaz | Tamamlandı |
+| S2-05 | Backend analiz akışı için test yazmak | Orta | Ceren Aydın | Tamamlandı |
+| S2-06 | Deployment seçeneklerini araştırmak | Orta | Yusuf Şengöz | Tamamlandı |
+| S2-07 | Sprint 2 daily scrum, board, review ve retrospective dokümanlarını toparlamak | Yüksek | Zeynep Özkan | Tamamlandı |
 
-## Takim Uyeleri ve Gorev Dagilimi
+## Takım Üyeleri ve Görev Dağılımı
 
-- Yusuf Sengoz: Product Owner olarak sprint hedefini netlestirdi, deployment seceneklerini degerlendirdi ve demo anlatimi icin urun degerini toparladi.
-- Zeynep Ozkan: Scrum Master olarak Sprint 2 planlama, daily scrum, board, review, retrospective ve teslim kontrol dokumanlarini hazirladi.
-- Ceren Aydin: Backend tarafinda skor aciklamasi mantigini ve test senaryolarini ekledi.
-- Feyza Korkmaz: Frontend tarafinda PDF/DOCX yukleme akisi, sonuc ekrani ve skor aciklamasi gorunumunu duzenledi.
+- Yusuf Şengöz: Product Owner olarak sprint hedefini netleştirdi, deployment seçeneklerini değerlendirdi ve demo anlatımı için ürün değerini toparladı.
+- Zeynep Özkan: Scrum Master olarak Sprint 2 planlama, daily scrum, board, review, retrospective ve teslim kontrol dokümanlarını hazırladı.
+- Ceren Aydın: Backend tarafında skor açıklaması mantığını ve test senaryolarını ekledi.
+- Feyza Korkmaz: Frontend tarafında PDF/DOCX yükleme akışı, sonuç ekranı ve skor açıklaması görünümünü düzenledi.
 
-## Sprint 1'den Tasinan Isler
+## Scrum Master Teknik Takip Notu
 
-- PDF/DOCX dosya yukleme desteginin guclendirilmesi.
-- Skorlarin kullaniciya daha acik anlatilmasi.
-- Deployment icin uygun platformlarin arastirilmasi.
-- GitHub issue ve sprint dokumantasyonunun daha duzenli tutulmasi.
-- Test kanitlarinin repo icinde gorunur hale getirilmesi.
+Scrum Master olarak bu sprintte odak noktam, sadece toplantı notlarını yazmak değil; işlerin GitHub üzerinde takip edilebilir, teslim dosyalarının okunabilir ve teknik çıktıların doğrulanabilir olmasını sağlamaktı.
+
+- Issue #7 ile Sprint 2 planlama kapsamı netleştirildi.
+- Issue #8 ile daily scrum notları düzenli hale getirildi.
+- Issue #9 ile board akışı To Do, In Progress, Done ve Blockers başlıklarıyla takip edildi.
+- Test ve build sonuçları ayrı bir Sprint 2 kanıt dosyasına bağlandı.
+- Sprint 3'e kalan OCR, deployment ve analiz geçmişi işleri blocker/sonraki iş olarak açık yazıldı.
+
+## Kapatılan Sprint 2 Issue'ları
+
+- #6 PDF/DOCX CV yükleme desteğini güçlendir
+- #7 Sprint 2 planning dokümanını oluştur
+- #8 Sprint 2 daily scrum notları şablonunu hazırla
+- #9 Sprint 2 GitHub board düzenini oluştur
+- #10 Backend analiz sonucuna skor açıklaması ekle
+- #12 Deployment seçeneklerini araştır
+
+## Sprint 1'den Taşınan İşler
+
+- PDF/DOCX dosya yükleme desteğinin güçlendirilmesi.
+- Skorların kullanıcıya daha açık anlatılması.
+- Deployment için uygun platformların araştırılması.
+- GitHub issue ve sprint dokümantasyonunun daha düzenli tutulması.
+- Test kanıtlarının repo içinde görünür hale getirilmesi.
 
 ## Kabul Kriterleri
 
-- `sprint-2/sprint_planning.md` dosyasi repoda bulunur.
-- Sprint 2 hedefi, kapsami ve backlog maddeleri acik sekilde yazilir.
-- Gorev dagilimi takim uyelerine gore gorunur olur.
-- Sprint 1'den tasinan isler ayri baslik altinda belirtilir.
-- Sprint 2 teslim dokumanlarina `sprint-2/README.md` uzerinden ulasilabilir.
-- Backend testleri calistirilabilir durumdadir.
-- Frontend production build'i alinabilir durumdadir.
+- `sprint-2/sprint_planning.md` dosyası repoda bulunur.
+- Sprint 2 hedefi, kapsamı ve backlog maddeleri açık şekilde yazılır.
+- Görev dağılımı takım üyelerine göre görünür olur.
+- Sprint 1'den taşınan işler ayrı başlık altında belirtilir.
+- Sprint 2 teslim dokümanlarına `sprint-2/README.md` üzerinden ulaşılabilir.
+- Backend testleri çalıştırılabilir durumdadır.
+- Frontend production build'i alınabilir durumdadır.
 
 ## Sprint 2 Riskleri
 
-- Taranmis PDF dosyalarinda OCR olmadigi icin metin cikarma her dosyada calismayabilir.
-- Deployment arastirmasi tamamlandi fakat canli ortama cikma, hesap ve platform kararina bagli oldugu icin bu sprintte zorunlu teslim kapsamina alinmadi.
-- Skor aciklamasi kural tabanli calisir; ileri seviye semantik yorumlama sonraki sprintlerde gelistirilebilir.
+- Taranmış PDF dosyalarında OCR olmadığı için metin çıkarma her dosyada çalışmayabilir.
+- Deployment araştırması tamamlandı fakat canlı ortama çıkma, hesap ve platform kararına bağlı olduğu için bu sprintte zorunlu teslim kapsamına alınmadı.
+- Skor açıklaması kural tabanlı çalışır; ileri seviye semantik yorumlama sonraki sprintlerde geliştirilebilir.
 
 ## Definition of Done
 
-- Kod ve dokumantasyon GitHub'a pushlanmis olur.
-- Sprint 2 dokuman seti tamamlanir.
-- Issue #7 kabul kriterleri karsilanir.
-- `npm run build` basarili calisir.
-- Backend unit testleri basarili calisir.
-- Kalan isler Sprint 3 veya sonraki teknik backlog icin acikca belirtilir.
+- Kod ve dokümantasyon GitHub'a pushlanmış olur.
+- Sprint 2 doküman seti tamamlanır.
+- Issue #7 kabul kriterleri karşılanır.
+- `npm run build` başarılı çalışır.
+- Backend unit testleri başarılı çalışır.
+- Kalan işler Sprint 3 veya sonraki teknik backlog için açıkça belirtilir.
