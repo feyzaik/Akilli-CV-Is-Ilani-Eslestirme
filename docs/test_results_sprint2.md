@@ -1,6 +1,6 @@
-# Sprint 2 Test Sonuclari
+# Sprint 2 Test Sonuçları
 
-Bu dosya, Sprint 2 sonunda calistirilan temel kontrolleri kaydetmek icin hazirlandi.
+Bu dosya, Sprint 2 sonunda çalıştırılan temel kontrolleri kaydetmek için hazırlandı.
 
 ## Backend Unit Testleri
 
@@ -13,11 +13,11 @@ python -m unittest discover -s tests
 
 Kontrol edilenler:
 
-- `/analyze` akisinda `score_explanation` alaninin donmesi.
-- Is modu skor aciklamasinda eslesen ve eksik becerilerin yazilmasi.
-- Staj modu skor aciklamasinda staj moduna ozel mantigin belirtilmesi.
+- `/analyze` akışında `score_explanation` alanının dönmesi.
+- İş modu skor açıklamasında eşleşen ve eksik becerilerin yazılması.
+- Staj modu skor açıklamasında staj moduna özel mantığın belirtilmesi.
 
-Durum: Basarili
+Durum: Başarılı
 
 ## Frontend Build
 
@@ -29,27 +29,27 @@ npm run build
 
 Kontrol edilenler:
 
-- React + Vite production build alinabiliyor.
-- Sonuc ekrani icin skor aciklamasi alanini kullanan kod derleniyor.
-- PDF/DOCX dosya okuma kutuphanesi build surecinde hata vermiyor.
+- React + Vite production build alınabiliyor.
+- Sonuç ekranı için skor açıklaması alanını kullanan kod derleniyor.
+- PDF/DOCX dosya okuma kütüphanesi build sürecinde hata vermiyor.
 
-Durum: Basarili
+Durum: Başarılı
 
-## Manuel Demo Senaryolari
+## Manuel Demo Senaryoları
 
-### Is Modu
+### İş Modu
 
-- CV: Python, REST API, SQL ve GitHub gecen junior backend CV ornegi.
-- Ilan: Python, FastAPI, PostgreSQL, REST API ve Git isteyen backend ilani.
-- Beklenen: Python/REST API/Git gibi eslesen beceriler gorunur, FastAPI/PostgreSQL eksik kalabilir.
+- CV: Python, REST API, SQL ve GitHub geçen junior backend CV örneği.
+- İlan: Python, FastAPI, PostgreSQL, REST API ve Git isteyen backend ilanı.
+- Beklenen: Python/REST API/Git gibi eşleşen beceriler görünür, FastAPI/PostgreSQL eksik kalabilir.
 
 ### Staj Modu
 
-- CV: Bilgisayar muhendisligi ogrencisi, Python ve veri analizi projesi olan ogrenci CV ornegi.
-- Ilan: Python, SQL, Machine Learning ve GitHub portfolyosu isteyen veri bilimi staj ilani.
-- Beklenen: Python eslesir, SQL/Machine Learning/GitHub eksik kalabilir, staj modu aciklamasi gorunur.
+- CV: Bilgisayar mühendisliği öğrencisi, Python ve veri analizi projesi olan öğrenci CV örneği.
+- İlan: Python, SQL, Machine Learning ve GitHub portfolyosu isteyen veri bilimi staj ilanı.
+- Beklenen: Python eşleşir, SQL/Machine Learning/GitHub eksik kalabilir, staj modu açıklaması görünür.
 
-## Bilinen Test Sinirlari
+## Bilinen Test Sınırları
 
-- OCR gerektiren taranmis PDF dosyalari test kapsamina alinmadi.
-- Production deployment henuz kurulmadigi icin testler yerel ortam ve build seviyesinde yapildi.
+- OCR gerektiren taranmış PDF dosyaları test kapsamına alınmadı.
+- Production deployment henüz kurulmadığı için testler yerel ortam ve build seviyesinde yapıldı.

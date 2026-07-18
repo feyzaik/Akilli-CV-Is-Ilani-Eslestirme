@@ -1,43 +1,44 @@
 # Sprint 2 Retrospective
 
-## Iyi Gidenler
+## İyi Gidenler
 
-- Sprint 1'den tasinan isler daha net basliklara ayrildi.
-- Skor aciklamasi urunun anlasilabilirligini artirdi.
-- Backend testleri ile kritik response alanlari kontrol edilmeye baslandi.
-- Deployment secenekleri arastirildigi icin sonraki sprint icin karar vermek kolaylasti.
-- Sprint 2 dokumantasyonu Sprint 1'e gore daha duzenli tutuldu.
+- Sprint 1'den taşınan işler daha net başlıklara ayrıldı.
+- Skor açıklaması ürünün anlaşılabilirliğini artırdı.
+- Backend testleri ile kritik response alanları kontrol edilmeye başlandı.
+- Deployment seçenekleri araştırıldığı için sonraki sprintte karar vermek kolaylaştı.
+- Sprint 2 dokümantasyonu Sprint 1'e göre daha düzenli tutuldu.
+- Scrum Master takibi sayesinde planning, board, daily scrum, review ve retrospective aynı teslim akışı içinde toplandı.
 
-## Gelistirilmesi Gerekenler
+## Geliştirilmesi Gerekenler
 
-- Issue ve PR akisinin sprint basindan itibaren daha aktif kullanilmasi gerekiyor.
-- Daily scrum notlari geriye donuk degil, gunluk olarak doldurulmali.
-- Demo kanitlari icin yeni ekran goruntusu veya kisa video eklenmeli.
-- Deployment icin sadece arastirma degil, calisan production linki hedeflenmeli.
+- Issue ve PR akışının sprint başından itibaren daha aktif kullanılması gerekiyor.
+- Daily scrum notları geriye dönük değil, günlük olarak doldurulmalı.
+- Demo kanıtları için yeni ekran görüntüsü veya kısa video eklenmeli.
+- Deployment için sadece araştırma değil, çalışan production linki hedeflenmeli.
 
 ## Start / Stop / Continue
 
 ### Start
 
-- Her yeni is icin GitHub issue acmak.
-- Her sprint sonunda test komutlarini ve sonuclarini ayri dosyada yazmak.
-- Demo gorsellerini sprint klasoruyle birlikte tutmak.
+- Her yeni iş için GitHub issue açmak.
+- Her sprint sonunda test komutlarını ve sonuçlarını ayrı dosyada yazmak.
+- Demo görsellerini sprint klasörüyle birlikte tutmak.
 
 ### Stop
 
-- Sprint sonunda dokumanlari toplu halde yetistirmeye calismak.
-- Placeholder notlari teslim dosyalarinda birakmak.
-- Deployment kararini son ana ertelemek.
+- Sprint sonunda dokümanları toplu halde yetiştirmeye çalışmak.
+- Placeholder notları teslim dosyalarında bırakmak.
+- Deployment kararını son ana ertelemek.
 
 ### Continue
 
-- Kucuk ama calisan urun iyilestirmeleri yapmak.
-- Backend ve frontend akisini birlikte test etmek.
-- Sprint klasorlerini teslim kontrol listesi gibi kullanmak.
+- Küçük ama çalışan ürün iyileştirmeleri yapmak.
+- Backend ve frontend akışını birlikte test etmek.
+- Sprint klasörlerini teslim kontrol listesi gibi kullanmak.
 
-## Sprint 3 Aksiyonlari
+## Sprint 3 Aksiyonları
 
-- Production deployment icin Render + Vercel kurulumunu yapmak.
-- OCR veya backend dosya parse fallback secenegini degerlendirmek.
-- PostgreSQL ile analiz gecmisi icin ilk veri modeli ve endpointleri hazirlamak.
-- Daha gelismis NLP/embedding denemesi icin teknik spike acmak.
+- Production deployment için Render + Vercel kurulumunu yapmak.
+- OCR veya backend dosya parse fallback seçeneğini değerlendirmek.
+- PostgreSQL ile analiz geçmişi için ilk veri modeli ve endpointleri hazırlamak.
+- Daha gelişmiş NLP/embedding denemesi için teknik spike açmak.

@@ -2,37 +2,50 @@
 
 ## Sprint Hedefi
 
-Sprint 2 hedefi, Sprint 1'de calisan MVP akisini kullaniciya daha anlasilir ve teslim edilebilir hale getirmekti.
+Sprint 2 hedefi, Sprint 1'de çalışan MVP akışını kullanıcıya daha anlaşılır ve teslim edilebilir hale getirmekti.
 
-## Gosterilen Demo Akisi
+## Gösterilen Demo Akışı
 
-1. Kullanici CV metnini girer veya PDF/DOCX dosyasi yukler.
-2. Kullanici hazir ilan secer veya ilan metnini kendisi girer.
-3. Is veya staj modu secilir.
-4. Sistem analiz sonucunu uretir.
-5. Sonuc ekraninda eslesme skoru, basvuruya hazirlik skoru ve skor aciklamasi gosterilir.
-6. Eksik beceriler, kanit tablosu, mini proje onerisi, etik CV onerileri ve mulakat sorulari listelenir.
+1. Kullanıcı CV metnini girer veya PDF/DOCX dosyası yükler.
+2. Kullanıcı hazır ilan seçer veya ilan metnini kendisi girer.
+3. İş veya staj modu seçilir.
+4. Sistem analiz sonucunu üretir.
+5. Sonuç ekranında eşleşme skoru, başvuruya hazırlık skoru ve skor açıklaması gösterilir.
+6. Eksik beceriler, kanıt tablosu, mini proje önerisi, etik CV önerileri ve mülakat soruları listelenir.
 
-## Tamamlanan User Story / Isler
+## Tamamlanan User Story / İşler
 
-- Kullanici olarak PDF/DOCX CV yukleyebilirim.
-- Kullanici olarak eslesme skorunun nedenini okuyabilirim.
-- Staj adayi olarak staj moduna gore ayrilmis hazirlik yorumunu gorebilirim.
-- Ekip olarak deployment icin hangi platformlarin uygun oldugunu dokumandan takip edebiliriz.
-- Ekip olarak Sprint 2 planlama ve board durumunu GitHub uzerinden gorebiliriz.
+- Kullanıcı olarak PDF/DOCX CV yükleyebilirim.
+- Kullanıcı olarak eşleşme skorunun nedenini okuyabilirim.
+- Staj adayı olarak staj moduna göre ayrılmış hazırlık yorumunu görebilirim.
+- Ekip olarak deployment için hangi platformların uygun olduğunu dokümandan takip edebiliriz.
+- Ekip olarak Sprint 2 planlama ve board durumunu GitHub üzerinden görebiliriz.
 
-## Urun Degeri
+## Scrum Master Review Notu
 
-Sprint 2 ile urun daha guven verici hale geldi. Sayisal skor tek basina bir sonuc gibi dururken, skor aciklamasi kullaniciya hangi becerilerin one ciktigini ve hangi alanlari gelistirmesi gerektigini daha net anlatiyor.
+Sprint 2 review içinde özellikle süreç kanıtlarının görünür olmasına dikkat edildi. Planning, daily scrum, board, review, retrospective ve test sonuçları ayrı dosyalarda tutuldu. Böylece sadece ürün ekranı değil, takımın sprint boyunca nasıl ilerlediği de takip edilebilir hale geldi.
+
+Kapatılan issue'lar review kanıtı olarak ayrıca vurgulandı:
+
+- #6 PDF/DOCX CV yükleme desteğini güçlendir
+- #7 Sprint 2 planning dokümanını oluştur
+- #8 Sprint 2 daily scrum notları şablonunu hazırla
+- #9 Sprint 2 GitHub board düzenini oluştur
+- #10 Backend analiz sonucuna skor açıklaması ekle
+- #12 Deployment seçeneklerini araştır
+
+## Ürün Değeri
+
+Sprint 2 ile ürün daha güven verici hale geldi. Sayısal skor tek başına bir sonuç gibi dururken, skor açıklaması kullanıcıya hangi becerilerin öne çıktığını ve hangi alanları geliştirmesi gerektiğini daha net anlatıyor.
 
 ## Tamamlanmayan / Sonraki Sprinte Kalanlar
 
 - OCR destekli PDF okuma.
 - Production deployment kurulumu.
-- Analiz gecmisi ve kullanici hesabi.
-- Daha gelismis semantik eslestirme.
-- Demo videosu veya yeni ekran goruntusu.
+- Analiz geçmişi ve kullanıcı hesabı.
+- Daha gelişmiş semantik eşleştirme.
+- Demo videosu veya yeni ekran görüntüsü.
 
 ## Review Sonucu
 
-Sprint 2 hedefi buyuk oranda tamamlandi. Issue #7 kapsamindaki planning dokumani hazirlandi ve Sprint 2 teslim dokumanlari tek klasor altinda toparlandi.
+Sprint 2 hedefi büyük oranda tamamlandı. Issue #7 kapsamındaki planning dokümanı hazırlandı ve Sprint 2 teslim dokümanları tek klasör altında toparlandı.

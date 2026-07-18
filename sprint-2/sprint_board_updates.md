@@ -1,39 +1,54 @@
-# Sprint 2 Board Guncellemeleri
+# Sprint 2 Board Güncellemeleri
+
+## Board Görseli
+
+![Sprint 2 teslim panosu](../docs/assets/sprint2_board_snapshot.svg)
+
+Bu görsel, Sprint 2 sonunda board'un nasıl kapandığını ve Scrum Master olarak takip edilen ana işleri tek ekranda göstermek için eklenmiştir.
 
 ## To Do
 
-- OCR destekli taranmis PDF okuma.
-- Kullanici hesaplari ve analiz gecmisi.
+- OCR destekli taranmış PDF okuma.
+- Kullanıcı hesapları ve analiz geçmişi.
 - PostgreSQL entegrasyonu.
-- LLM veya embedding tabanli daha gelismis semantik eslestirme.
-- Canli deployment kurulumunun tamamlanmasi.
+- LLM veya embedding tabanlı daha gelişmiş semantik eşleştirme.
+- Canlı deployment kurulumunun tamamlanması.
 
 ## In Progress
 
-- Deployment icin platform secimi ve hesap/ortam hazirligi.
-- Demo icin ekran goruntusu veya kisa video hazirligi.
-- GitHub issue ve PR akisinin sprint boyunca daha duzenli kullanilmasi.
+- Deployment için platform seçimi ve hesap/ortam hazırlığı.
+- Demo için ekran görüntüsü veya kısa video hazırlığı.
+- GitHub issue ve PR akışının sprint boyunca daha düzenli kullanılması.
 
 ## Done
 
-- Sprint 2 planning dokumani olusturuldu.
+- Sprint 2 planning dokümanı oluşturuldu.
 - Sprint 2 backlog maddeleri listelendi.
-- Takim gorev dagilimi yazildi.
-- Sprint 1'den tasinan isler belirtildi.
-- PDF/DOCX yukleme akisi frontend tarafinda kullanilabilir hale getirildi.
-- Dosya okuma hata mesajlari kullaniciya daha net anlatildi.
-- Backend response'una skor aciklamasi eklendi.
-- Frontend sonuc ekraninda skor aciklamasi gosterildi.
-- Backend analiz akisi icin testler eklendi.
-- Deployment secenekleri arastirildi.
-- Sprint 2 review ve retrospective dokumanlari hazirlandi.
+- Takım görev dağılımı yazıldı.
+- Sprint 1'den taşınan işler belirtildi.
+- PDF/DOCX yükleme akışı frontend tarafında kullanılabilir hale getirildi.
+- Dosya okuma hata mesajları kullanıcıya daha net anlatıldı.
+- Backend response'una skor açıklaması eklendi.
+- Frontend sonuç ekranında skor açıklaması gösterildi.
+- Backend analiz akışı için testler eklendi.
+- Deployment seçenekleri araştırıldı.
+- Sprint 2 review ve retrospective dokümanları hazırlandı.
 
 ## Blockers
 
-- Taranmis PDF dosyalari icin OCR henuz kapsam disinda.
-- Canli deployment icin platform hesabi ve production URL karari gerekiyor.
-- Semantik eslestirme icin model/API secimi Sprint 3 teknik karari olarak duruyor.
+- Taranmış PDF dosyaları için OCR henüz kapsam dışında.
+- Canlı deployment için platform hesabı ve production URL kararı gerekiyor.
+- Semantik eşleştirme için model/API seçimi Sprint 3 teknik kararı olarak duruyor.
 
-## Sprint Sonu Board Ozeti
+## Kapatılan Issue'lar
 
-Sprint 2 sonunda urunun demo degeri arttirildi. Kullanici artik sadece skor gormuyor; skorun neden olustugunu aciklama metniyle okuyabiliyor. PDF/DOCX yukleme akisi daha gorunur hale geldi, testler eklendi ve deployment icin uygun yol belirlendi.
+- #6 PDF/DOCX CV yükleme desteğini güçlendir
+- #7 Sprint 2 planning dokümanını oluştur
+- #8 Sprint 2 daily scrum notları şablonunu hazırla
+- #9 Sprint 2 GitHub board düzenini oluştur
+- #10 Backend analiz sonucuna skor açıklaması ekle
+- #12 Deployment seçeneklerini araştır
+
+## Sprint Sonu Board Özeti
+
+Sprint 2 sonunda ürünün demo değeri arttırıldı. Kullanıcı artık sadece skor görmüyor; skorun neden oluştuğunu açıklama metniyle okuyabiliyor. PDF/DOCX yükleme akışı daha görünür hale geldi, testler eklendi ve deployment için uygun yol belirlendi.

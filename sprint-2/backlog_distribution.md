@@ -1,39 +1,39 @@
-# Sprint 2 Backlog Dagilimi
+# Sprint 2 Backlog Dağılımı
 
-Sprint 2 backlog dagilimi, Sprint 1'den tasinan eksikler ve teslim icin gerekli yeni isler dikkate alinarak yapildi.
+Sprint 2 backlog dağılımı, Sprint 1'den taşınan eksikler ve teslim için gerekli yeni işler dikkate alınarak yapıldı. Öncelik; jüriye gösterilebilen ürün değeri, GitHub üzerinde takip edilebilir süreç ve test edilebilir teknik çıktı oldu.
 
-## Yusuf Sengoz
+## Yusuf Şengöz
 
-- Sprint 2 urun hedefinin Product Owner tarafindan netlestirilmesi.
-- Deployment seceneklerinin arastirilmesi.
-- Render + Vercel seceneginin proje icin neden uygun oldugunun yazilmasi.
-- Demo anlatiminda skor aciklamasi ve dosya yukleme akisinin one cikarilmasi.
+- Product Owner olarak Sprint 2 ürün hedefinin netleşmesine katkı verdi.
+- Deployment seçeneklerinin araştırılmasını takip etti.
+- Render + Vercel önerisinin proje için neden uygun olduğunu dokümana bağladı.
+- Demo anlatımında skor açıklaması ve dosya yükleme akışının öne çıkarılmasını sağladı.
 
-## Zeynep Ozkan
+## Zeynep Özkan
 
-- Sprint 2 planning dokumaninin hazirlanmasi.
-- Daily scrum notlarinin toparlanmasi.
-- Sprint board durumunun To Do / In Progress / Done / Blockers seklinde yazilmasi.
-- Sprint review ve retrospective dokumanlarinin tamamlanmasi.
-- Issue #7 kabul kriterlerinin kontrol edilmesi.
+- Scrum Master olarak Sprint 2 planning dokümanını hazırladı.
+- Daily scrum notlarını gün gün toparladı.
+- Sprint board durumunu To Do, In Progress, Done ve Blockers başlıklarıyla görünür hale getirdi.
+- Sprint review ve retrospective dokümanlarını tamamladı.
+- Issue #7 kabul kriterlerini kontrol etti ve teslim klasörünün bütünlüğünü sağladı.
 
-## Ceren Aydin
+## Ceren Aydın
 
-- Backend analiz response'una `score_explanation` alaninin eklenmesi.
-- Is modu ve staj modu icin aciklama metinlerinin farkli is mantigi ile uretilmesi.
-- Backend test senaryolarinin eklenmesi.
-- Mevcut matching ve scoring servislerinin sprint kapsamiyla uyumlu tutulmasi.
+- Backend analiz response'una `score_explanation` alanının eklenmesini üstlendi.
+- İş modu ve staj modu için açıklama metinlerinin farklı mantıkla üretilmesini sağladı.
+- Backend test senaryolarını ekledi.
+- Mevcut matching ve scoring servislerinin sprint kapsamıyla uyumlu kalmasını kontrol etti.
 
 ## Feyza Korkmaz
 
-- PDF/DOCX dosya yukleme alaninin frontend akisinda kullanilabilir tutulmasi.
-- Dosyadan metin cikarma hatalarinda kullaniciya anlasilir mesaj verilmesi.
-- Skor aciklamasinin sonuc kartina eklenmesi.
-- Frontend build kontrolu ve genel demo akisi.
+- PDF/DOCX dosya yükleme alanının frontend akışında kullanılabilir kalmasını sağladı.
+- Dosyadan metin çıkarma hatalarında kullanıcıya anlaşılır mesaj verilmesini düzenledi.
+- Skor açıklamasının sonuç kartında görünmesini sağladı.
+- Frontend build kontrolü ve genel demo akışına destek verdi.
 
-## Dagitim Mantigi
+## Dağıtım Mantığı
 
-- Urun degeri yuksek ve juriye gorunur isler onceliklendirildi.
-- Sprint 1'den tasinan PDF/DOCX, skor aciklamasi, deployment ve GitHub sureci basliklari Sprint 2'nin ana kapsaminda tutuldu.
-- Deployment canliya alma isi yerine arastirma ve karar dokumani olarak sinirlandirildi.
-- Test kapsami, kritik backend response alanlarini kontrol edecek kadar tutuldu.
+- Ürün değeri yüksek ve jüriye görünür işler önceliklendirildi.
+- Sprint 1'den taşınan PDF/DOCX, skor açıklaması, deployment ve GitHub süreci başlıkları Sprint 2'nin ana kapsamında tutuldu.
+- Deployment canlıya alma işi bu sprintte araştırma ve karar dokümanı seviyesinde sınırlandırıldı.
+- Test kapsamı, kritik backend response alanlarını kontrol edecek kadar tutuldu.

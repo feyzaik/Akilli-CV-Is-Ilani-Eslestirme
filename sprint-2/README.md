@@ -1,40 +1,59 @@
-# Sprint 2 Teslim Ozeti
+# Sprint 2 Teslim Özeti
 
-Bu klasor, Sprint 2 sonunda beklenen proje yonetimi ve urun kanitlarini tek yerden takip etmek icin hazirlanmistir.
+Bu klasör, Sprint 2 sonunda beklenen proje yönetimi ve ürün kanıtlarını tek yerden takip etmek için hazırlanmıştır.
 
 ## Sprint 2 Hedefi
 
-Sprint 2'de temel hedef, Sprint 1'de ortaya cikan calisan MVP'yi daha anlasilir, test edilebilir ve teslim edilebilir hale getirmekti. Bu nedenle dosya yukleme, skor aciklamasi, test, deployment arastirmasi ve sprint dokumantasyonu birlikte ele alindi.
+Sprint 2'de temel hedef, Sprint 1'de ortaya çıkan çalışan MVP'yi daha anlaşılır, test edilebilir ve teslim edilebilir hale getirmekti. Bu nedenle dosya yükleme, skor açıklaması, test, deployment araştırması ve sprint dokümantasyonu birlikte ele alındı.
 
-## Teslim Dokumanlari
+## Sprint 2 Görsel Kanıtı
+
+![Sprint 2 teslim panosu](../docs/assets/sprint2_board_snapshot.svg)
+
+Bu görsel, Sprint 2 sonunda tamamlanan işleri, Scrum Master takibini ve sonraki sprint için açık kalan teknik başlıkları tek ekranda göstermek için eklendi.
+
+## Teslim Dokümanları
 
 1. [Sprint planning](sprint_planning.md)
-2. [Backlog dagilimi](backlog_distribution.md)
-3. [Daily scrum notlari](daily_scrum_notes.md)
+2. [Backlog dağılımı](backlog_distribution.md)
+3. [Daily scrum notları](daily_scrum_notes.md)
 4. [Sprint board updates](sprint_board_updates.md)
-5. [Urun durumu](product_status.md)
+5. [Ürün durumu](product_status.md)
 6. [Sprint review](sprint_review.md)
 7. [Sprint retrospective](sprint_retrospective.md)
 
-## Sprint 2'de Tamamlanan Ana Isler
+## Scrum Master Notu
 
-- Sprint 2 planlama dokumani hazirlandi.
-- PDF/DOCX CV yukleme akisi urun icinde gorunur ve kullanilabilir hale getirildi.
-- Backend analiz cevabina skor aciklamasi eklendi.
-- Frontend sonuc ekraninda skor aciklamasi gosterildi.
-- Backend icin skor aciklamasini kontrol eden testler eklendi.
-- Deployment secenekleri arastirildi ve onerilen yol dokumante edildi.
-- Sprint 2 board, daily scrum, review ve retrospective kayitlari tamamlandi.
+Bu sprintte Scrum Master sorumluluğu sadece doküman yazmakla sınırlı tutulmadı. Sprint hedefi, backlog önceliği, issue takibi, blocker notları, test kanıtı ve teslim kontrol listesi aynı klasör altında birleştirildi. Böylece jüri ya da takım üyesi repoya baktığında Sprint 2'de neyin planlandığını, neyin tamamlandığını ve neyin sonraki sprinte kaldığını tek akışta görebilir.
 
-## Urun Durumu
+## Sprint 2'de Tamamlanan Ana İşler
 
-Sprint 2 sonunda kullanici CV metni girebilir veya uygun PDF/DOCX dosyasindan metin cikartabilir, is/staj ilani ile eslestirme yapabilir ve sonuc ekraninda skor, skor aciklamasi, eksik beceriler, kanit tablosu, mini proje onerisi, etik CV onerileri ve mulakat sorularini gorebilir.
+- Sprint 2 planlama dokümanı hazırlandı.
+- PDF/DOCX CV yükleme akışı ürün içinde görünür ve kullanılabilir hale getirildi.
+- Backend analiz cevabına skor açıklaması eklendi.
+- Frontend sonuç ekranında skor açıklaması gösterildi.
+- Backend için skor açıklamasını kontrol eden testler eklendi.
+- Deployment seçenekleri araştırıldı ve önerilen yol dokümante edildi.
+- Sprint 2 board, daily scrum, review ve retrospective kayıtları tamamlandı.
+
+## Kapatılan Issue Vurgusu
+
+- #6 PDF/DOCX CV yükleme desteğini güçlendir
+- #7 Sprint 2 planning dokümanını oluştur
+- #8 Sprint 2 daily scrum notları şablonunu hazırla
+- #9 Sprint 2 GitHub board düzenini oluştur
+- #10 Backend analiz sonucuna skor açıklaması ekle
+- #12 Deployment seçeneklerini araştır
+
+## Ürün Durumu
+
+Sprint 2 sonunda kullanıcı CV metni girebilir veya uygun PDF/DOCX dosyasından metin çıkartabilir, iş/staj ilanı ile eşleştirme yapabilir ve sonuç ekranında skor, skor açıklaması, eksik beceriler, kanıt tablosu, mini proje önerisi, etik CV önerileri ve mülakat sorularını görebilir.
 
 ## Kontrol Listesi
 
-- Sprint 2 planning dosyasi var mi: Evet
+- Sprint 2 planning dosyası var mı: Evet
 - Backlog maddeleri listelendi mi: Evet
-- Takim gorev dagilimi net mi: Evet
-- Sprint 1'den tasinan isler belirtildi mi: Evet
-- Sprint 2 review ve retrospective yazildi mi: Evet
-- Test ve build kontrolu yapildi mi: Evet
+- Takım görev dağılımı net mi: Evet
+- Sprint 1'den taşınan işler belirtildi mi: Evet
+- Sprint 2 review ve retrospective yazıldı mı: Evet
+- Test ve build kontrolü yapıldı mı: Evet

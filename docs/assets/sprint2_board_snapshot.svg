@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Sprint 2 Teslim Panosu</title>
+  <desc id="desc">Sprint 2 boyunca tamamlanan işler, Scrum Master takip notları ve sonraki sprint için kalan işler.</desc>
+  <rect width="1280" height="760" fill="#f6f8fb"/>
+  <rect x="42" y="34" width="1196" height="692" rx="18" fill="#ffffff" stroke="#d6dce8"/>
+
+  <text x="76" y="88" fill="#172033" font-family="Arial, sans-serif" font-size="34" font-weight="700">Sprint 2 Teslim Panosu</text>
+  <text x="76" y="122" fill="#5c6a7a" font-family="Arial, sans-serif" font-size="17">Scrum Master takibi, kapanan issue'lar ve teslim kontrol listesi</text>
+
+  <rect x="76" y="152" width="1128" height="68" rx="12" fill="#edf7f3" stroke="#b7dfce"/>
+  <text x="104" y="184" fill="#15553f" font-family="Arial, sans-serif" font-size="19" font-weight="700">Sprint hedefi</text>
+  <text x="104" y="207" fill="#245c4b" font-family="Arial, sans-serif" font-size="16">MVP akışını daha anlaşılır, test edilebilir ve teslim edilebilir hale getirmek.</text>
+
+  <g transform="translate(76 252)">
+    <rect width="350" height="380" rx="14" fill="#f3f6fb" stroke="#d9e0ec"/>
+    <rect x="0" y="0" width="350" height="54" rx="14" fill="#dff2e8"/>
+    <text x="22" y="34" fill="#145c42" font-family="Arial, sans-serif" font-size="20" font-weight="700">Tamamlandı</text>
+
+    <rect x="22" y="76" width="306" height="54" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="99" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">#6 PDF/DOCX desteği</text>
+    <text x="42" y="119" fill="#617085" font-family="Arial, sans-serif" font-size="13">Dosya yükleme ve hata mesajları kontrol edildi.</text>
+
+    <rect x="22" y="144" width="306" height="54" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="167" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">#7 Sprint planning</text>
+    <text x="42" y="187" fill="#617085" font-family="Arial, sans-serif" font-size="13">Hedef, backlog, görev dağılımı yazıldı.</text>
+
+    <rect x="22" y="212" width="306" height="54" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="235" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">#8 Daily scrum notları</text>
+    <text x="42" y="255" fill="#617085" font-family="Arial, sans-serif" font-size="13">Günlük ilerleme ve karar notları tamamlandı.</text>
+
+    <rect x="22" y="280" width="306" height="54" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="303" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">#10 Skor açıklaması</text>
+    <text x="42" y="323" fill="#617085" font-family="Arial, sans-serif" font-size="13">Backend ve frontend sonucu anlaşılır oldu.</text>
+  </g>
+
+  <g transform="translate(465 252)">
+    <rect width="350" height="380" rx="14" fill="#f3f6fb" stroke="#d9e0ec"/>
+    <rect x="0" y="0" width="350" height="54" rx="14" fill="#e6efff"/>
+    <text x="22" y="34" fill="#224c8f" font-family="Arial, sans-serif" font-size="20" font-weight="700">Scrum Master Takibi</text>
+
+    <rect x="22" y="76" width="306" height="62" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="100" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">#9 Board düzeni</text>
+    <text x="42" y="121" fill="#617085" font-family="Arial, sans-serif" font-size="13">To Do, In Progress, Done ve Blockers ayrıldı.</text>
+
+    <rect x="22" y="152" width="306" height="62" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="176" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">Teslim kontrolü</text>
+    <text x="42" y="197" fill="#617085" font-family="Arial, sans-serif" font-size="13">Planning, review, retro ve test kanıtı bağlandı.</text>
+
+    <rect x="22" y="228" width="306" height="62" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="252" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">Risk takibi</text>
+    <text x="42" y="273" fill="#617085" font-family="Arial, sans-serif" font-size="13">OCR ve deployment sınırları açık yazıldı.</text>
+
+    <rect x="22" y="304" width="306" height="44" rx="10" fill="#fff7e8" stroke="#f0cf90"/>
+    <text x="42" y="331" fill="#7a4a00" font-family="Arial, sans-serif" font-size="14" font-weight="700">Scrum Master: Zeynep Özkan</text>
+  </g>
+
+  <g transform="translate(854 252)">
+    <rect width="350" height="380" rx="14" fill="#f3f6fb" stroke="#d9e0ec"/>
+    <rect x="0" y="0" width="350" height="54" rx="14" fill="#fff0df"/>
+    <text x="22" y="34" fill="#87510d" font-family="Arial, sans-serif" font-size="20" font-weight="700">Sonraki Sprint</text>
+
+    <rect x="22" y="76" width="306" height="54" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="99" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">#12 Deployment kararı</text>
+    <text x="42" y="119" fill="#617085" font-family="Arial, sans-serif" font-size="13">Render + Vercel önerisi dokümante edildi.</text>
+
+    <rect x="22" y="144" width="306" height="54" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="167" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">OCR destekli PDF</text>
+    <text x="42" y="187" fill="#617085" font-family="Arial, sans-serif" font-size="13">Taranmış dosyalar Sprint 3 teknik işi.</text>
+
+    <rect x="22" y="212" width="306" height="54" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="235" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">Analiz geçmişi</text>
+    <text x="42" y="255" fill="#617085" font-family="Arial, sans-serif" font-size="13">PostgreSQL ve kullanıcı hesabı sonraya kaldı.</text>
+
+    <rect x="22" y="280" width="306" height="54" rx="10" fill="#ffffff" stroke="#cfd8e6"/>
+    <text x="42" y="303" fill="#1f2937" font-family="Arial, sans-serif" font-size="15" font-weight="700">Demo kanıtları</text>
+    <text x="42" y="323" fill="#617085" font-family="Arial, sans-serif" font-size="13">Ekran görüntüsü/video yeni aksiyon.</text>
+  </g>
+
+  <rect x="76" y="660" width="1128" height="36" rx="9" fill="#172033"/>
+  <text x="104" y="683" fill="#ffffff" font-family="Arial, sans-serif" font-size="15">Sprint 2 özeti: planlama tamamlandı, teknik işler test edildi, kapatılan issue'lar teslim dokümanlarına bağlandı.</text>
+</svg>

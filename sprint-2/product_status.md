@@ -1,36 +1,36 @@
-# Sprint 2 Urun Durumu
+# Sprint 2 Ürün Durumu
 
-## Tamamlanan Urun Ozellikleri
+## Tamamlanan Ürün Özellikleri
 
-- CV metni ile analiz akisi korunur durumda.
-- PDF/DOCX CV yukleme akisi frontend tarafinda calisir durumda.
-- Is ve staj modu secimi devam ediyor.
-- Backend `/analyze` endpoint'i eslesme skoru ve basvuruya hazirlik skoru uretir.
-- Skor aciklamasi backend tarafinda uretilip frontend sonuc kartinda gosterilir.
-- Kanit tablosu, eksik beceriler, mini proje onerisi, etik CV onerileri ve mulakat sorulari sonuc ekraninda listelenir.
+- CV metni ile analiz akışı korunur durumda.
+- PDF/DOCX CV yükleme akışı frontend tarafında çalışır durumda.
+- İş ve staj modu seçimi devam ediyor.
+- Backend `/analyze` endpoint'i eşleşme skoru ve başvuruya hazırlık skoru üretir.
+- Skor açıklaması backend tarafında üretilip frontend sonuç kartında gösterilir.
+- Kanıt tablosu, eksik beceriler, mini proje önerisi, etik CV önerileri ve mülakat soruları sonuç ekranında listelenir.
 
-## Sprint 2'de Gelen Iyilestirmeler
+## Sprint 2'de Gelen İyileştirmeler
 
-- Skorlar kullanici icin daha acik hale getirildi.
-- Staj modu aciklamasinda ders, proje ve portfolyo kanitlari ayrica dikkate alindi.
-- Backend testleri ile `score_explanation` alaninin dondugu kontrol edildi.
-- Deployment icin Render + Vercel yolu onerildi.
-- Sprint 2 dokumantasyon seti teslim formatina getirildi.
+- Skorlar kullanıcı için daha açık hale getirildi.
+- Staj modu açıklamasında ders, proje ve portfolyo kanıtları ayrıca dikkate alındı.
+- Backend testleri ile `score_explanation` alanının döndüğü kontrol edildi.
+- Deployment için Render + Vercel yolu önerildi.
+- Sprint 2 dokümantasyon seti teslim formatına getirildi.
 
-## Test Edilen Akislar
+## Test Edilen Akışlar
 
-- Junior backend ilaninda is modu analizi.
-- Veri bilimi staj ilaninda staj modu analizi.
-- Backend unit testleri ile skor aciklamasi alaninin varligi.
-- Frontend production build kontrolu.
+- Junior backend ilanında iş modu analizi.
+- Veri bilimi staj ilanında staj modu analizi.
+- Backend unit testleri ile skor açıklaması alanının varlığı.
+- Frontend production build kontrolü.
 
 ## Bilinen Sinirlar
 
-- Taranmis PDF dosyalari OCR olmadigi icin okunamayabilir.
-- Skor aciklamasi kural tabanli oldugu icin LLM seviyesinde yorum yapmaz.
-- Deployment arastirmasi tamamlandi fakat production ortam henuz kurulmus degildir.
-- Analiz gecmisi ve kullanici hesabi Sprint 3 kapsaminda degerlendirilecektir.
+- Taranmış PDF dosyaları OCR olmadığı için okunamayabilir.
+- Skor açıklaması kural tabanlı olduğu için LLM seviyesinde yorum yapmaz.
+- Deployment araştırması tamamlandı fakat production ortam henüz kurulmuş değildir.
+- Analiz geçmişi ve kullanıcı hesabı Sprint 3 kapsamında değerlendirilecektir.
 
 ## Sprint 2 Sonu Degerlendirme
 
-Sprint 2 sonunda urun, demo icin daha guvenli ve anlatilabilir bir hale geldi. En onemli fark, kullanicinin sadece sayisal skor degil, bu skorun nedenlerini de okuyabilmesidir.
+Sprint 2 sonunda ürün, demo için daha güvenli ve anlatılabilir bir hale geldi. En önemli fark, kullanıcının sadece sayısal skor değil, bu skorun nedenlerini de okuyabilmesidir.
