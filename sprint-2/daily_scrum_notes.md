@@ -2,262 +2,265 @@
 
 Bu dosya, Sprint 2 boyunca gunluk ilerleme notlarini duzenli ve tek formatta takip etmek icin hazirlanmistir.
 
-## Kullanim Sekli
-
-- Her gun icin ilgili basligi doldurun.
-- `Dun` alanina tamamlanan isleri yazin.
-- `Bugun` alanina planlanan sonraki adimlari yazin.
-- `Blocker` alanina ilerlemeyi yavaslatan veya durduran konulari ekleyin.
-- Gerekirse `Karar / Not` alanina teknik veya surec kararlarini ekleyin.
-
 ## 6 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Sprint 1 review ve retrospective notlari incelendi.
+- Sprint 2'ye tasinan isler listelendi.
 
 ### Bugun
 
-- Doldurulacak.
+- Sprint 2 hedefi ve ana backlog basliklari netlestirilecek.
+- PDF/DOCX, skor aciklamasi, test ve deployment isleri ayri basliklara ayrilacak.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Net blocker yok.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Sprint 2 kapsaminda once teslim degeri yuksek islere odaklanma karari alindi.
 
 ## 7 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Sprint 2 kapsam basliklari belirlendi.
 
 ### Bugun
 
-- Doldurulacak.
+- PDF/DOCX yukleme akisi frontend tarafinda kontrol edilecek.
+- Dosya okuma hata mesajlari gozden gecirilecek.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Taranmis PDF dosyalari OCR gerektirdigi icin kapsam disinda kalabilir.
 
 ### Karar / Not
 
-- Doldurulacak.
+- OCR bu sprint icin zorunlu teslim kapsamina alinmadi.
 
 ## 8 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- PDF/DOCX yukleme akisinin sinirlari konusuldu.
 
 ### Bugun
 
-- Doldurulacak.
+- Backend analiz cevabina skor aciklamasi ekleme ihtiyaci degerlendirilecek.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Gelismis LLM aciklamasi icin API veya model secimi henuz net degil.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Sprint 2 icin kural tabanli, basit ve aciklanabilir skor metni yeterli goruldu.
 
 ## 9 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Skor aciklamasi icin backend tarafindaki alanlar incelendi.
 
 ### Bugun
 
-- Doldurulacak.
+- Eslesen ve eksik becerilerden aciklama metni uretilmesi planlanacak.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Net blocker yok.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Staj ve is modu aciklamalari ayni metinle gecilmeyecek, mod bilgisi metne eklenecek.
 
 ## 10 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Skor aciklamasi mantigi netlesti.
 
 ### Bugun
 
-- Doldurulacak.
+- Frontend sonuc kartinda skor aciklamasi icin alan ayrilacak.
+- Backend response modelinin frontend ile uyumu kontrol edilecek.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Net blocker yok.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Sonuc ekraninda kullaniciya teknik olmayan, okunabilir aciklama verilmesi kararlastirildi.
 
 ## 11 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Frontend sonuc karti ve backend response uyumu kontrol edildi.
 
 ### Bugun
 
-- Doldurulacak.
+- Backend test senaryolari hazirlanacak.
+- Is modu ve staj modu icin en az iki kontrol yazilacak.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Net blocker yok.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Testler once kritik response alanini kontrol edecek sekilde sinirli tutuldu.
 
 ## 12 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Backend test kapsami belirlendi.
 
 ### Bugun
 
-- Doldurulacak.
+- Deployment secenekleri arastirilacak.
+- Backend ve frontend icin dusuk butceli secenekler karsilastirilacak.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Bazi platformlarda ucretsiz katman kredi karti veya sure siniri istiyor.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Bootcamp projesi icin sifir/dusuk butce onceligi korundu.
 
 ## 13 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Deployment platformlari karsilastirildi.
 
 ### Bugun
 
-- Doldurulacak.
+- Render + Vercel seceneginin avantajlari dokumante edilecek.
+- CORS notu eklenecek.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Production URL henuz belli olmadigi icin CORS degeri simdilik yerel kalacak.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Canli deployment bu sprintte arastirma ve karar dokumani seviyesinde tutuldu.
 
 ## 14 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Deployment dokumani hazirlandi.
 
 ### Bugun
 
-- Doldurulacak.
+- Sprint 2 board durumu toparlanacak.
+- Done, In Progress ve Blocker basliklari guncellenecek.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Net blocker yok.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Board ozeti teslim dokumanlarina eklenecek.
 
 ## 15 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Sprint board basliklari toparlandi.
 
 ### Bugun
 
-- Doldurulacak.
+- Sprint review taslagi hazirlanacak.
+- Demo akisinda hangi ozelliklerin gosterilecegi yazilacak.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Yeni demo videosu henuz yok.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Demo videosu sonraki aksiyon olarak not edildi.
 
 ## 16 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Sprint review taslagi hazirlandi.
 
 ### Bugun
 
-- Doldurulacak.
+- Retrospective icin iyi gidenler ve gelistirilecekler yazilacak.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Net blocker yok.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Retrospective icinde daily notlarinin gercek zamanda tutulmasi aksiyon olarak eklenecek.
 
 ## 17 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Retrospective basliklari hazirlandi.
 
 ### Bugun
 
-- Doldurulacak.
+- Sprint 2 test sonuclari dosyasi hazirlanacak.
+- Backend test ve frontend build komutlari kontrol edilecek.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Production deployment olmadigi icin testler yerel ortamla sinirli kalacak.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Test sonucu dosyasi teslim kaniti olarak eklenecek.
 
 ## 18 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Test sonucu dosyasi taslagi hazirlandi.
 
 ### Bugun
 
-- Doldurulacak.
+- Sprint 2 planning dokumani issue #7 kabul kriterlerine gore son kez kontrol edilecek.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Net blocker yok.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Planning dosyasinda hedef, backlog, gorev dagilimi ve tasinan islerin acik olmasi gerekiyor.
 
 ## 19 Temmuz 2026
 
 ### Dun
 
-- Doldurulacak.
+- Issue #7 kabul kriterleri kontrol edildi.
 
 ### Bugun
 
-- Doldurulacak.
+- Sprint 2 teslim klasoru ve README baglantilari tamamlanacak.
+- Build ve test kontrolleri calistirilacak.
 
 ### Blocker
 
-- Yok / Doldurulacak.
+- Net blocker yok.
 
 ### Karar / Not
 
-- Doldurulacak.
+- Sprint 2 teslimi icin dokuman seti tek klasor altinda toparlandi.
